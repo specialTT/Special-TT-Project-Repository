@@ -7,25 +7,12 @@ assignees: ''
 
 ---
 
-**問題描述**
-請簡單明確地描述你遇到的問題。
+**Project Name**
+Projects with issues.
 
-**重現步驟**
-重現這個問題的步驟：
-1. 前往 '...'
-2. 點選 '....'
-3. 滑動到 '....'
-4. 出現錯誤
+**Issue Content**
+Describe the problem you are experiencing.
 
-**預期行為**
-你本來預期會發生什麼？
-
-**截圖或影片**
-如果有的話，請提供截圖或影片。
-
-**執行環境**
- - 作業系統： [例如 Windows 10 / macOS]
- - 瀏覽器或執行版本：[例如 Chrome 100 / Node.js 18]
-
-**補充說明**
-其他你想提供的訊息。
+**Version Information**
+Project version:
+Game version:
