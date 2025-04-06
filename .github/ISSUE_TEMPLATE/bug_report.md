@@ -1,6 +1,6 @@
 ---
-name: Bug 回報
-about: 回報一個錯誤或問題
+name: Bug report
+about: Report a bug or issue.
 title: "[BUG] "
 labels: bug
 assignees: ''
