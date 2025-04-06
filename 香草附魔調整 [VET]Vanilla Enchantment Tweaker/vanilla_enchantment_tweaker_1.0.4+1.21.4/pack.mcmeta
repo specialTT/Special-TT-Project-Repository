@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 61,
+        "description": "Removed repellency from many enchantments, some enchantments no longer consume durability when triggering, and more"
+    }
+}

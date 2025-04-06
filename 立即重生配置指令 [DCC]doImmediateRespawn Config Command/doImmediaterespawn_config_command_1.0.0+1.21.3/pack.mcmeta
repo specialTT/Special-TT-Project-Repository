@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "pack_format": 57,
+        "supported_formats": ["48","57"],
+        "description": "You can use /trigger to set \"doImmediateRespawn\" to true or false."
+    }
+}

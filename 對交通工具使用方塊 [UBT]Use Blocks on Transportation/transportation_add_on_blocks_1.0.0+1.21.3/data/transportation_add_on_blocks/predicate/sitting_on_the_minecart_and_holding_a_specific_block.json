@@ -1,0 +1,19 @@
+{
+    "condition":"entity_properties",
+    "entity":"this",
+    "predicate":{
+        "vehicle":{
+            "type":"minecraft:minecart"
+        },
+        "equipment":{
+            "mainhand":{
+                "items":[
+                    "minecraft:chest",
+                    "minecraft:hopper",
+                    "minecraft:tnt",
+                    "minecraft:furnace"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#A#",
+        "#F#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "A": "minecraft:guster_pottery_sherd",
+        "F": "minecraft:wind_charge"
+    },
+    "result": {
+        "id": "minecraft:guster_pottery_sherd",
+        "count": 2
+    }
+}

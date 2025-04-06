@@ -1,0 +1,10 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "vehicle":{
+            "type":"magma_cube",
+            "nbt":"{Size:3}"
+        }
+    }
+}

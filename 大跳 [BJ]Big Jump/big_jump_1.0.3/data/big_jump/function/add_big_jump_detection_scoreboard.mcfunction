@@ -1,0 +1,1 @@
+scoreboard objectives add big_jump_detection dummy

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "S": {
+            "item": "minecraft:snort_pottery_sherd"
+        },
+        "B": {
+            "item": "minecraft:sniffer_egg"
+        }
+    },
+    "result": {
+        "id": "minecraft:snort_pottery_sherd",
+        "count": 2
+    }
+}

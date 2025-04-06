@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "#C#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "B": {
+            "item": "minecraft:burn_pottery_sherd"
+        },
+        "C": {
+            "item": "minecraft:campfire"
+        }
+    },
+    "result": {
+        "id": "minecraft:burn_pottery_sherd",
+        "count": 2
+    }
+}

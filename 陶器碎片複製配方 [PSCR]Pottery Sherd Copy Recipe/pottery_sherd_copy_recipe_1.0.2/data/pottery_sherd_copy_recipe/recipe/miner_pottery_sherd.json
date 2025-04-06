@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#M#",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "M": {
+            "item": "minecraft:miner_pottery_sherd"
+        },
+        "G": {
+            "tag": "minecraft:pickaxes"
+        }
+    },
+    "result": {
+        "id": "minecraft:miner_pottery_sherd",
+        "count": 2
+    }
+}

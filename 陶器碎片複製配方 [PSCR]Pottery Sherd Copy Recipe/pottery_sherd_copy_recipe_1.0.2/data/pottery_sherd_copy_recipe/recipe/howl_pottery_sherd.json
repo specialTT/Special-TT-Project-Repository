@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#H#",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "H": {
+            "item": "minecraft:howl_pottery_sherd"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        }
+    },
+    "result": {
+        "id": "minecraft:howl_pottery_sherd",
+        "count": 2
+    }
+}

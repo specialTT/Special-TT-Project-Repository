@@ -1,0 +1,25 @@
+scoreboard players set @s wooden_pickaxe_broken 0
+scoreboard players set @s stone_pickaxe_broken 0
+scoreboard players set @s iron_pickaxe_broken 0
+scoreboard players set @s golden_pickaxe_broken 0
+scoreboard players set @s diamond_pickaxe_broken 0
+scoreboard players set @s netherite_pickaxe_broken 0
+scoreboard players set @s wooden_axe_broken 0
+scoreboard players set @s stone_axe_broken 0
+scoreboard players set @s iron_axe_broken 0
+scoreboard players set @s golden_axe_broken 0
+scoreboard players set @s diamond_axe_broken 0
+scoreboard players set @s netherite_axe_broken 0
+scoreboard players set @s wooden_hoe_broken 0
+scoreboard players set @s stone_hoe_broken 0
+scoreboard players set @s iron_hoe_broken 0
+scoreboard players set @s golden_hoe_broken 0
+scoreboard players set @s diamond_hoe_broken 0
+scoreboard players set @s netherite_hoe_broken 0
+scoreboard players set @s wooden_shovel_broken 0
+scoreboard players set @s stone_shovel_broken 0
+scoreboard players set @s iron_shovel_broken 0
+scoreboard players set @s golden_shovel_broken 0
+scoreboard players set @s diamond_shovel_broken 0
+scoreboard players set @s netherite_shovel_broken 0
+give @s minecraft:stick 2

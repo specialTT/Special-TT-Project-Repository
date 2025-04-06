@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "pottery_sherd",
+    "pattern": [
+        "#P#",
+        "#E#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "P": "minecraft:prize_pottery_sherd",
+        "E": "minecraft:emerald"
+    },
+    "result": {
+        "id": "minecraft:prize_pottery_sherd",
+        "count": 2
+    }
+}

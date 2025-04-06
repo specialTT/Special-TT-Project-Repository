@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "pottery_sherd",
+    "pattern": [
+        "#P#",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "P": "minecraft:plenty_pottery_sherd",
+        "G": "minecraft:rabbit_stew"
+    },
+    "result": {
+        "id": "minecraft:plenty_pottery_sherd",
+        "count": 2
+    }
+}

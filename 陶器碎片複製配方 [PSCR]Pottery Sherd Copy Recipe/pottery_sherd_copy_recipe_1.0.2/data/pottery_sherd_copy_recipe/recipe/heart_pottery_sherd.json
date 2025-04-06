@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#H#",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "H": {
+            "item": "minecraft:heart_pottery_sherd"
+        },
+        "B": {
+            "item": "minecraft:baked_potato"
+        }
+    },
+    "result": {
+        "id": "minecraft:heart_pottery_sherd",
+        "count": 2
+    }
+}

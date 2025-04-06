@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#M#",
+        "#S#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "M": "minecraft:mourner_pottery_sherd",
+        "S": "minecraft:sculk_catalyst"
+    },
+    "result": {
+        "id": "minecraft:mourner_pottery_sherd",
+        "count": 2
+    }
+}

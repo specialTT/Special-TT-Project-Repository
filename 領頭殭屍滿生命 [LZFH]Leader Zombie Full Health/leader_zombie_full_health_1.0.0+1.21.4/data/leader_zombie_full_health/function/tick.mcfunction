@@ -1,0 +1,3 @@
+execute as @e[type=#minecraft:zombies,type=!zombie_horse,type=!zoglin] unless entity @s[scores={leader_zombie=-1}] store success score @s leader_zombie run data get entity @s attributes.[{id:"minecraft:max_health"}].modifiers.[{id:"minecraft:leader_zombie_bonus"}].amount
+execute as @e[type=#minecraft:zombies,type=!zombie_horse,type=!zoglin,scores={leader_zombie=1}] store result entity @s Health float 0.0001 run attribute @s minecraft:max_health get 10000
+scoreboard players set @e[type=#minecraft:zombies,type=!zombie_horse,type=!zoglin] leader_zombie -1

@@ -1,0 +1,145 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.impaling"
+  },
+  "supported_items": "#minecraft:enchantable/trident",
+  "weight": 2,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.5,
+            "per_level_above_first": 2.5
+          }
+        },
+        "requirements": {
+          "condition":"any_of",
+          "terms":[
+            {
+              "condition": "any_of",
+              "terms": [
+                  {
+                      "condition": "entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "location": {
+                          "fluid":{
+                            "fluids":"water"
+                          }
+                        }
+                      }
+                  },
+                  {
+                      "condition": "entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "location": {
+                          "block":{
+                            "state":{
+                              "waterlogged":"true"
+                            }
+                          }
+                        }
+                      }
+                  },
+                  {
+                      "condition": "entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "location": {
+                          "block":{
+                            "blocks":"water_cauldron"
+                          }
+                        }
+                      }
+                  }
+              ]
+            },
+            {
+              "condition":"all_of",
+              "terms":[
+                {
+                  "condition":"weather_check",
+                  "raining":true
+                },
+                {
+                  "condition":"entity_properties",
+                  "entity":"this",
+                  "predicate":{
+                    "location":{
+                      "can_see_sky":true,
+                      "dimension":"overworld",
+                      "biomes":[
+                        "ocean",
+                        "cold_ocean",
+                        "frozen_ocean",
+                        "deep_ocean",
+                        "deep_cold_ocean",
+                        "deep_frozen_ocean",
+                        "lukewarm_ocean",
+                        "warm_ocean",
+                        "deep_lukewarm_ocean",
+                        "meadow",
+                        "grove",
+                        "snowy_slopes",
+                        "jagged_peaks",
+                        "frozen_peaks",
+                        "stony_peaks",
+                        "cherry_grove",
+                        "windswept_hills",
+                        "windswept_forest",
+                        "windswept_gravelly_hills",
+                        "forest",
+                        "flower_forest",
+                        "birch_forest",
+                        "old_growth_birch_forest",
+                        "taiga",
+                        "snowy_taiga",
+                        "old_growth_pine_taiga",
+                        "old_growth_spruce_taiga",
+                        "dark_forest",
+                        "jungle",
+                        "sparse_jungle",
+                        "bamboo_jungle",
+                        "swamp",
+                        "mangrove_swamp",
+                        "river",
+                        "frozen_river",
+                        "beach",
+                        "snowy_beach",
+                        "stony_shore",
+                        "plains",
+                        "sunflower_plains",
+                        "snowy_plains",
+                        "ice_spikes",
+                        "dripstone_caves",
+                        "lush_caves",
+                        "deep_dark"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

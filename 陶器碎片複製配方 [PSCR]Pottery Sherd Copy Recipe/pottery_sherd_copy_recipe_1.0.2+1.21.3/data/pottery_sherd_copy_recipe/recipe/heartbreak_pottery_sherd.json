@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#H#",
+        "#P#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "H": "minecraft:heartbreak_pottery_sherd",
+        "P": "minecraft:poisonous_potato"
+    },
+    "result": {
+        "id": "minecraft:heartbreak_pottery_sherd",
+        "count": 2
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "pack_format": 57,
+        "supported_formats": ["48","57"],
+        "description": "Let the mobs actively ride to form knights, instead of only spawning knights when mobs are generated."
+    }
+}

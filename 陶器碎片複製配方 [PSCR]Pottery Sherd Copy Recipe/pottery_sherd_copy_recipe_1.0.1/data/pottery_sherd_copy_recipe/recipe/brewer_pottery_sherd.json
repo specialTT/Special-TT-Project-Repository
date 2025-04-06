@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "#L#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "B": {
+            "item": "minecraft:brewer_pottery_sherd"
+        },
+        "L": {
+            "item": "minecraft:brewing_stand"
+        }
+    },
+    "result": {
+        "id": "minecraft:brewer_pottery_sherd",
+        "count": 2
+    }
+}

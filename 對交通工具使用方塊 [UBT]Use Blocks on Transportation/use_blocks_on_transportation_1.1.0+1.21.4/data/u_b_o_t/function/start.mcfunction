@@ -1,0 +1,6 @@
+scoreboard players set @s use_block_on_transportation 0
+$execute if items entity @s weapon.* minecraft:written_book[minecraft:custom_data={block_id:"chest"}] run execute as @e[type=#u_b_o_t:transportations,distance=..$(boat_interaction_distance)] run function u_b_o_t:search_transportation with entity @s
+$execute if items entity @s weapon.* minecraft:written_book[minecraft:custom_data={block_id:"tnt"}] run execute as @e[type=minecart,distance=..$(boat_interaction_distance)] run function u_b_o_t:search_transportation with entity @s
+$execute if items entity @s weapon.* minecraft:written_book[minecraft:custom_data={block_id:"furnace"}] run execute as @e[type=minecart,distance=..$(boat_interaction_distance)] run function u_b_o_t:search_transportation with entity @s
+$execute if items entity @s weapon.* minecraft:written_book[minecraft:custom_data={block_id:"hopper"}] run execute as @e[type=minecart,distance=..$(boat_interaction_distance)] run function u_b_o_t:search_transportation with entity @s
+function u_b_o_t:add_block_on_transportation with storage minecraft:item_command

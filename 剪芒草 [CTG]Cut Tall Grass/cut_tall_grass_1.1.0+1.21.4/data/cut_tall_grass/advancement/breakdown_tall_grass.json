@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "has_tall_grass": {
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:tall_grass"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "cut_tall_grass:breakdown_tall_grass"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_tall_grass"
+      ]
+    ],
+    "rewards":{
+        "recipes":[
+            "cut_tall_grass:breakdown_tall_grass"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "pack_format": 57,
+        "supported_formats": ["48","57"],
+        "description": "When a tool is broken, the material in its handle is returned to the player."
+    }
+}

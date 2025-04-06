@@ -1,0 +1,5 @@
+scoreboard objectives add player_last_pos_x dummy
+scoreboard objectives add player_last_pos_y dummy
+scoreboard objectives add player_last_pos_z dummy
+scoreboard objectives add player_last_pos_x_rotation dummy
+scoreboard objectives add player_last_pos_y_rotation dummy

@@ -1,0 +1,2 @@
+execute as @e[type=!minecraft:warden] at @s if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{blindness:{}}}} run function universal_blindness:add_effects with entity @s attributes.[{id:"minecraft:follow_range"}]
+execute as @e[type=!minecraft:warden] at @s unless predicate {condition:"entity_properties",entity:"this",predicate:{effects:{blindness:{}}}} run function universal_blindness:remove_effects

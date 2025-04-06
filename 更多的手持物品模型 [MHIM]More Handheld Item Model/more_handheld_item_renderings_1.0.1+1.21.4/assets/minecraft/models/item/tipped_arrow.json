@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "item/tipped_arrow_head",
+    "layer1": "item/tipped_arrow_base"
+  },
+  "display":{
+    "thirdperson_righthand": {
+      "rotation": [45, 90, 0],
+      "translation": [0, -1.5, 2],
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [45, -90, 0],
+      "translation": [0, -1.5, 2],
+      "scale": [0.7, 0.7, 0.7]
+    }
+  }
+}

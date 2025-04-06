@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#A#",
+        "#F#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "A": {
+            "item": "minecraft:flow_pottery_sherd"
+        },
+        "F": {
+            "item": "minecraft:flow_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "id": "minecraft:flow_pottery_sherd",
+        "count": 2
+    }
+}

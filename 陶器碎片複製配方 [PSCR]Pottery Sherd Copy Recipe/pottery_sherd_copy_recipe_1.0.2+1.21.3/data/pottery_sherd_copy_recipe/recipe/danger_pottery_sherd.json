@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "#C#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "D": "minecraft:danger_pottery_sherd",
+        "C": "minecraft:creeper_head"
+    },
+    "result": {
+        "id": "minecraft:danger_pottery_sherd",
+        "count": 2
+    }
+}

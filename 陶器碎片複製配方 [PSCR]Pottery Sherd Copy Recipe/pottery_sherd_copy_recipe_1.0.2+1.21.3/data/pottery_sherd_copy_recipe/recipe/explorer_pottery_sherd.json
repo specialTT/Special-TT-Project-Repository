@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "#R#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "E": "minecraft:explorer_pottery_sherd",
+        "R": "minecraft:recovery_compass"
+    },
+    "result": {
+        "id": "minecraft:explorer_pottery_sherd",
+        "count": 2
+    }
+}

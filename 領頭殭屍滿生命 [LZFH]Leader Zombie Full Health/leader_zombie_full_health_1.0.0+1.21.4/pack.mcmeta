@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 61,
+        "description": "Fix: MC-219981"
+    }
+}

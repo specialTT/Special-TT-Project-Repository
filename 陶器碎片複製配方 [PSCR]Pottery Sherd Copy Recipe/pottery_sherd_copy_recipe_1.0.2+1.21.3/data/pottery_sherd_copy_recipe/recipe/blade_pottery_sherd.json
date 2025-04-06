@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "B": "minecraft:blade_pottery_sherd",
+        "G": "#minecraft:swords"
+    },
+    "result": {
+        "id": "minecraft:blade_pottery_sherd",
+        "count": 2
+    }
+}

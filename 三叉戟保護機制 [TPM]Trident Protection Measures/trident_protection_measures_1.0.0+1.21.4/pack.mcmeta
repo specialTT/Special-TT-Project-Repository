@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 61,
+        "description": "When a trident with the Loyalty enchantment falls into the void, it will trigger the Return effect and return to the one who fired the trident."
+    }
+}

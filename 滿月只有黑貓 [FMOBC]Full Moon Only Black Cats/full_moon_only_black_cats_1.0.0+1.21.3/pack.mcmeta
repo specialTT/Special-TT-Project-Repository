@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "pack_format": 57,
+        "supported_formats": ["48","57"],
+        "description": "This datapack makes spawning black cats easier."
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#F#",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "F": {
+            "item": "minecraft:friend_pottery_sherd"
+        },
+        "B": {
+            "item": "suspicious_stew"
+        }
+    },
+    "result": {
+        "id": "minecraft:friend_pottery_sherd",
+        "count": 2
+    }
+}

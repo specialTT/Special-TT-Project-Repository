@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#A#",
+        "#F#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "A": "minecraft:scrape_pottery_sherd",
+        "F": "#minecraft:axes"
+    },
+    "result": {
+        "id": "minecraft:scrape_pottery_sherd",
+        "count": 2
+    }
+}

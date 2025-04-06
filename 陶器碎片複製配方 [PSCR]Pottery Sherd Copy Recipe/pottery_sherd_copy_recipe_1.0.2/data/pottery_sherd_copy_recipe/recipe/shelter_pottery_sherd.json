@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#A#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "S": {
+            "item": "minecraft:shelter_pottery_sherd"
+        },
+        "A": {
+            "tag": "saplings"
+        }
+    },
+    "result": {
+        "id": "minecraft:shelter_pottery_sherd",
+        "count": 2
+    }
+}

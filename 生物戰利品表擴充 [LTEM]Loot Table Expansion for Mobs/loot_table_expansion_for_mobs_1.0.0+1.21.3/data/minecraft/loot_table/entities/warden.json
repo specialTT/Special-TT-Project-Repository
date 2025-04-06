@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_catalyst"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "loot_table_expansion_for_mobs:warden_drop",
+          "expand":false
+        }
+      ],
+      "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.2
+    }
+  ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/warden"
+}

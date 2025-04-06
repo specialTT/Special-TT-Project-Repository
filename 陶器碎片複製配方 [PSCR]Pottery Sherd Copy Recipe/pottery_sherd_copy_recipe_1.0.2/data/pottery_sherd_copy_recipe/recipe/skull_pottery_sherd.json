@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#P#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "S": {
+            "item": "minecraft:skull_pottery_sherd"
+        },
+        "P": {
+            "tag": "pottery_sherd_copy_recipe:skeleton_skulls"
+        }
+    },
+    "result": {
+        "id": "minecraft:skull_pottery_sherd",
+        "count": 2
+    }
+}

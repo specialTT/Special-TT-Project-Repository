@@ -1,0 +1,10 @@
+{
+    "condition":"entity_properties",
+    "entity":"this",
+    "predicate":{
+        "passenger":{
+            "type":"minecraft:marker",
+            "nbt":"{Tags:[loot]}"
+        }
+    }
+}

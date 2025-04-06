@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_terracotta",
+  "key": {
+    "#": [
+      "terracotta",
+      "white_terracotta",
+      "light_gray_terracotta",
+      "gray_terracotta",
+      "black_terracotta",
+      "red_terracotta",
+      "orange_terracotta",
+      "yellow_terracotta",
+      "lime_terracotta",
+      "green_terracotta",
+      "cyan_terracotta",
+      "light_blue_terracotta",
+      "blue_terracotta",
+      "purple_terracotta",
+      "magenta_terracotta",
+      "pink_terracotta"
+    ],
+    "X": "minecraft:brown_dye"
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:brown_terracotta"
+  }
+}

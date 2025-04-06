@@ -1,0 +1,40 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid":{
+                  "fluids":"water"
+                }
+              }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block":{
+                  "state":{
+                    "waterlogged":"true"
+                  }
+                }
+              }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block":{
+                  "blocks":"water_cauldron"
+                }
+              }
+            }
+        }
+    ]
+}

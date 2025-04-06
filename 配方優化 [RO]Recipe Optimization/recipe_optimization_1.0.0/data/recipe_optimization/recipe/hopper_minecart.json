@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": {
+      "item": "minecraft:hopper"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "III",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:hopper_minecart"
+  }
+}

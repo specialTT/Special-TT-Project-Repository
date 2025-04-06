@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "pottery_sherd",
+    "pattern": [
+        "#A#",
+        "#T#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "A": "minecraft:arms_up_pottery_sherd",
+        "T": "minecraft:totem_of_undying"
+    },
+    "result": {
+        "id": "minecraft:arms_up_pottery_sherd",
+        "count": 2
+    }
+}

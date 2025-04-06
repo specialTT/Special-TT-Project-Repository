@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "pack_format": 57,
+        "supported_formats": ["48","57"],
+        "description": "When the cauldron was broken with the fluid, the fluid will flow out."
+    }
+}

@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:villager] run data modify entity @s RestocksToday set value 0

@@ -1,0 +1,14 @@
+{
+    "condition":"entity_properties",
+    "entity":"this",
+    "predicate":{
+        "vehicle":{
+            "type":"#minecraft:boat"
+        },
+        "equipment":{
+            "mainhand":{
+                "items":"minecraft:chest"
+            }
+        }
+    }
+}

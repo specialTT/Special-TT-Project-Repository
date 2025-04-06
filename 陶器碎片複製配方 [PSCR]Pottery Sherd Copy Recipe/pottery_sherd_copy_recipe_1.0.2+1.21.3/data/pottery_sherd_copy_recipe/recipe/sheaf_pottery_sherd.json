@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#H#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "S": "minecraft:sheaf_pottery_sherd",
+        "H": "minecraft:hay_block"
+    },
+    "result": {
+        "id": "minecraft:sheaf_pottery_sherd",
+        "count": 2
+    }
+}

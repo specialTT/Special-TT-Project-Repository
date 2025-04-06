@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#P#",
+        "#G#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "P": {
+            "item": "minecraft:plenty_pottery_sherd"
+        },
+        "G": {
+            "item": "minecraft:golden_apple"
+        }
+    },
+    "result": {
+        "id": "minecraft:plenty_pottery_sherd",
+        "count": 2
+    }
+}
