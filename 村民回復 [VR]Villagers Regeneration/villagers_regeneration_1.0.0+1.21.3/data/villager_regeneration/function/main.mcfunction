@@ -1,0 +1,2 @@
+execute as @e[type=villager] store success score @s is_sleeping run data get entity @s SleepingX
+effect give @e[type=minecraft:villager,scores={is_sleeping=1},nbt=!{active_effects:[{id:"minecraft:regeneration"}]}] minecraft:regeneration 1 2 true

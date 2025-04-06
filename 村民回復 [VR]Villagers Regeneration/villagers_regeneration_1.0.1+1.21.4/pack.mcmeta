@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 61,
+        "description": "Villagers now regain health when they sleep."
+    }
+}
