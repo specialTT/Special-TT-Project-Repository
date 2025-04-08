@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "AAA",
+        "A A",
+        " A "
+    ],
+    "key": {
+        "A": "minecraft:green_stained_glass_pane"
+    },
+    "result": {
+        "id": "minecraft:light",
+        "components":{
+            "minecraft:block_state":{
+                "level":"9"
+            }
+        },
+        "count": 1
+    }
+}

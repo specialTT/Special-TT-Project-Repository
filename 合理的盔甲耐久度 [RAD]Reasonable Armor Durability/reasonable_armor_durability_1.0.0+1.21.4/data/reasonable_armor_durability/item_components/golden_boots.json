@@ -1,0 +1,6 @@
+{
+  "targets": "golden_boots",
+  "components": {
+    "max_damage":77
+  }
+}

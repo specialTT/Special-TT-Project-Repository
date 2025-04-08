@@ -1,0 +1,1 @@
+$execute at @n[nbt={UUID:$(UUID)}] run execute summon interaction run function better_armor_stand:set_interaction

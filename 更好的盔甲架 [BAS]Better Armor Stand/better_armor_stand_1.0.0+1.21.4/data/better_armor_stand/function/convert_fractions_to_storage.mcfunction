@@ -1,0 +1,2 @@
+execute store result storage armor_stand_interaction_distance range double 0.001 run scoreboard players get @s armor_stand_interaction_distance
+function better_armor_stand:find_looking_at_armor_stand with storage minecraft:armor_stand_interaction_distance

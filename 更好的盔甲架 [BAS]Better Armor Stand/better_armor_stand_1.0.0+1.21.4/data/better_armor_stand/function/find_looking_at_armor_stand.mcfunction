@@ -1,0 +1,2 @@
+$execute as @e[type=armor_stand,distance=..$(range)] run function better_armor_stand:check_self with entity @s
+function better_armor_stand:summon_interaction with storage minecraft:armor_stand_interaction_distance

@@ -1,0 +1,2 @@
+$execute as @n[type=player] if predicate {condition:"entity_properties",entity:"this",predicate:{type_specific:{type:"player",looking_at:{nbt:"{UUID:$(UUID)}"}}}} run data modify storage armor_stand_interaction_distance UUID set from entity @n[nbt={UUID:$(UUID)}] UUID
+$execute as @n[type=player] if predicate {condition:"entity_properties",entity:"this",predicate:{type_specific:{type:"player",looking_at:{nbt:"{UUID:$(UUID)}"}}}} run data modify storage armor_stand_interaction_distance UUID set from entity @n[nbt={UUID:$(UUID)}] UUID
