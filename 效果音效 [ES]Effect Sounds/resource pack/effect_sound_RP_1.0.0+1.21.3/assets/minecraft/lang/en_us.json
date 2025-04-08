@@ -1,0 +1,14 @@
+{
+    "subtitles.entity.player.get_instant_health":"Get health",
+    "subtitles.entity.player.get_speed":"Get speed boost",
+    "subtitles.entity.player.get_strength":"Get Strength",
+    "subtitles.entity.player.get_weakness":"Get Weakness",
+    "subtitles.entity.player.get_nausea":"Get Poison",
+    "subtitles.entity.player.get_invisibility":"Get Invisibility",
+    "subtitles.entity.player.get_darkness":"Get Darkness",
+    "subtitles.entity.player.get_night_vision":"Get Night Vision",
+    "subtitles.entity.player.get_hunger":"Get Hunger",
+    "subtitles.entity.player.get_glowing":"Get Glowing",
+    "subtitles.entity.player.get_levitation":"Get Levitation",
+    "subtitles.entity.player.get_slow_falling":"Get Slow Falling"
+}
