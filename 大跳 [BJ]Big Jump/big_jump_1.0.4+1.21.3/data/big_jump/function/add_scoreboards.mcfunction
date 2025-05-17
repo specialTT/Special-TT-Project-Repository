@@ -1,2 +1,0 @@
-scoreboard objectives add big_jump_detection dummy
-scoreboard objectives add jump_detection minecraft.custom:minecraft.jump
