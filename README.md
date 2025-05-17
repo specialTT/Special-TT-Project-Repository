@@ -2,5 +2,6 @@
 
 If you have anything you want to tell me besides reporting bugs and providing new feature ideas, you can contact this Gmall account: xiaoguinenglish@gmail.com
 
-所有專案的擁有者：特別的特特 
+所有專案的擁有者：特別的特特
+
 Owner of all projects: Special TT
