@@ -1,0 +1,3 @@
+$execute store result storage item_command count int 1 if items entity @s weapon.offhand minecraft:$(block_id)
+$data modify storage item_command command set value "item replace entity @s weapon.offhand with minecraft:written_book[minecraft:item_model=\"$(block_id)\",minecraft:custom_data={block_id:\"$(block_id)\"},minecraft:item_name='{\"translate\":\"block.minecraft.$(block_id)\"}',enchantment_glint_override=false,minecraft:max_stack_size=64]"
+function u_b_o_t:item_command with storage item_command

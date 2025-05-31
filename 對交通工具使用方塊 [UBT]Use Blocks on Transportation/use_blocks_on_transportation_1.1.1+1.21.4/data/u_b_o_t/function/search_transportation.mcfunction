@@ -1,0 +1,1 @@
+$execute as @n[type=player] if predicate {condition:"entity_properties",entity:"this",predicate:{type_specific:{type:"player",looking_at:{nbt:"{UUID:$(UUID)}"}}}} run data modify storage minecraft:item_command UUID set from entity @n[nbt={UUID:$(UUID)}] UUID
