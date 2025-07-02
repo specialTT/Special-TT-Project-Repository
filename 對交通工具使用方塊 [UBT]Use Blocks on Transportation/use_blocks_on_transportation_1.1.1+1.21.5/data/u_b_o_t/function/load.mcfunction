@@ -1,0 +1,3 @@
+scoreboard objectives add boat_interaction_distance dummy
+scoreboard objectives add minecart_interaction_distance dummy
+scoreboard objectives add use_block_on_transportation minecraft.used:minecraft.written_book

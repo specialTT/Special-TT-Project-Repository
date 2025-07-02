@@ -1,0 +1,6 @@
+{
+  "targets": "diamond_helmet",
+  "components": {
+    "max_damage":429
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "targets": "netherite_boots",
+  "components": {
+    "max_damage":407
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "targets": "leather_helmet",
+  "components": {
+    "max_damage":65
+  }
+}

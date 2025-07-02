@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "has_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#redye_recipe:concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redye_recipe:concrete/white"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_concrete"
+    ]
+  ],
+  "rewards":{
+      "recipes":[
+          "redye_recipe:concrete/white"
+      ]
+  }
+}

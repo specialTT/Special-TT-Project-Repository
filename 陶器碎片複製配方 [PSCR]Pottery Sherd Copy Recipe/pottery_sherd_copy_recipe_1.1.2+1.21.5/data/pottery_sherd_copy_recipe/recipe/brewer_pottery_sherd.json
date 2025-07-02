@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "pottery_sherd",
+    "pattern": [
+        "#B#",
+        "#L#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:brick",
+        "B": "minecraft:brewer_pottery_sherd",
+        "L": "minecraft:brewing_stand"
+    },
+    "result": {
+        "id": "minecraft:brewer_pottery_sherd",
+        "count": 2
+    }
+}

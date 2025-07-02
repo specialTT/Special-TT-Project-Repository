@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 61,
+        "description": "Invisibility potions can now make item frames and armor stands invisible when smashed."
+    }
+}

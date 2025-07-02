@@ -1,0 +1,9 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "vehicle":{
+      "type":"#invisible_armor_stands_and_item_frames:potion"
+    }
+  }
+}

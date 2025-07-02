@@ -1,0 +1,109 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.impaling"
+  },
+  "supported_items": "#minecraft:enchantable/trident",
+  "weight": 2,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.5,
+            "per_level_above_first": 2.5
+          }
+        },
+        "requirements": {
+          "condition":"any_of",
+          "terms":[
+            {
+              "condition": "any_of",
+              "terms": [
+                  {
+                      "condition": "entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "location": {
+                          "fluid":{
+                            "fluids":"#water"
+                          }
+                        }
+                      }
+                  },
+                  {
+                      "condition": "entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "location": {
+                          "block":{
+                            "state":{
+                              "waterlogged":"true"
+                            }
+                          }
+                        }
+                      }
+                  },
+                  {
+                      "condition": "entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "location": {
+                          "block":{
+                            "blocks":"water_cauldron"
+                          }
+                        }
+                      }
+                  }
+              ]
+            },
+            {
+              "condition":"all_of",
+              "terms":[
+                {
+                  "condition":"weather_check",
+                  "raining":true
+                },
+                {
+                  "condition":"entity_properties",
+                  "entity":"this",
+                  "predicate":{
+                    "location":{
+                      "can_see_sky":true
+                    }
+                  }
+                },
+                {
+                  "condition":"inverted",
+                  "term":{
+                    "condition":"entity_properties",
+                    "entity":"this",
+                    "predicate":{
+                      "location":{
+                        "biomes":"#snow_golem_melts"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

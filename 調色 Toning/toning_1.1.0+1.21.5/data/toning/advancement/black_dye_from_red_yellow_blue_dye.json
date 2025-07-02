@@ -1,0 +1,35 @@
+{
+    "criteria": {
+      "has_red_yellow_blue_dye": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:red_dye",
+                "minecraft:yellow_dye",
+                "minecraft:blue_dye"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "toning:black_dye_from_red_yellow_blue_dye"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_red_yellow_blue_dye"
+      ]
+    ],
+    "rewards":{
+        "recipes":[
+            "toning:black_dye_from_red_yellow_blue_dye"
+        ]
+    }
+}

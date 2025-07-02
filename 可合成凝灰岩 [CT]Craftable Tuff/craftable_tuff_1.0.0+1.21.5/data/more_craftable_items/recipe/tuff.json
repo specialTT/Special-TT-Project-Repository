@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:cobblestone"
+    },
+    "result": {
+        "id": "minecraft:tuff",
+        "count": 8
+    }
+}

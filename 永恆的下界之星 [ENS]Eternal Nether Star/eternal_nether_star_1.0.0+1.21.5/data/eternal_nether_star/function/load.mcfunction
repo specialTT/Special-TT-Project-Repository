@@ -1,0 +1,1 @@
+function eternal_nether_star:reset_time

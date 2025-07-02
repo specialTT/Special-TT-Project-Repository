@@ -1,0 +1,6 @@
+{
+  "targets": ["chainmail_boots","iron_boots"],
+  "components": {
+    "max_damage":165
+  }
+}

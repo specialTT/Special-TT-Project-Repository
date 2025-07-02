@@ -1,0 +1,6 @@
+{
+  "targets": "golden_helmet",
+  "components": {
+    "max_damage":91
+  }
+}

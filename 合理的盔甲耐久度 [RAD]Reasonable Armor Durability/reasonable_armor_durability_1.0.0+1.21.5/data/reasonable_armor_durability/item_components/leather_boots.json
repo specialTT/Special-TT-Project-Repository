@@ -1,0 +1,6 @@
+{
+  "targets": "leather_boots",
+  "components": {
+    "max_damage":55
+  }
+}

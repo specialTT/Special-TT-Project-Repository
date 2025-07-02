@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        ["minecraft:cobblestone","minecraft:cobbled_deepslate","minecraft:blackstone"],
+        "minecraft:rotten_flesh"
+    ],
+    "result": {
+        "id": "minecraft:dirt",
+        "count": 1
+    }
+}
