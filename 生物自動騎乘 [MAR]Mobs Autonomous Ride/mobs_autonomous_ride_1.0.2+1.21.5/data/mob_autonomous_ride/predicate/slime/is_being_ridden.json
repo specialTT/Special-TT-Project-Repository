@@ -1,0 +1,13 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "passenger":{
+            "type":"slime",
+            "type_specific":{
+              "type":"slime",
+              "size":2
+            }
+        }
+    }
+}

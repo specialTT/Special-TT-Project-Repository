@@ -1,0 +1,2 @@
+execute as @e[type=!player,type=!armor_stand,tag=!loot_equipment] run data modify entity @s drop_chances set value {mainhand:1f,offhand:1f,feet:1f,legs:1f,chest:1f,head:1f,body:1f,saddle:1f}
+tag @e[type=!player,type=!armor_stand,tag=!loot_equipment] add loot_equipment

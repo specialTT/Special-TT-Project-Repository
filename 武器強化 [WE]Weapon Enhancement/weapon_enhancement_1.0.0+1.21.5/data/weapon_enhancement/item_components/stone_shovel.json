@@ -1,0 +1,8 @@
+{
+  "targets": "minecraft:stone_shovel",
+  "components": {
+    "minecraft:weapon": {
+      "item_damage_per_attack": 1
+    }
+  }
+}

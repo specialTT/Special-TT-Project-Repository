@@ -1,0 +1,8 @@
+{
+  "targets": "minecraft:mace",
+  "components": {
+    "minecraft:weapon": {
+      "disable_blocking_for_seconds": 5
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "targets": "minecraft:wooden_pickaxe",
+  "components": {
+    "minecraft:weapon": {
+      "item_damage_per_attack": 1
+    }
+  }
+}

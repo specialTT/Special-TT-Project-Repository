@@ -1,0 +1,36 @@
+{
+  "condition":"any_of",
+  "terms":[
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags":{
+          "is_on_fire":true
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location":{
+          "block":{
+            "blocks":"fire"
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location":{
+          "fluid":{
+            "fluids":"lava"
+          }
+        }
+      }
+    }
+  ]
+}
