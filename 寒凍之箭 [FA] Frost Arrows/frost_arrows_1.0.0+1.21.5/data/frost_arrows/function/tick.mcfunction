@@ -1,0 +1,4 @@
+execute as @e[type=#arrows] at @s on origin if entity @s[type=stray] run data modify entity @n weapon.components."minecraft:enchantments"."frost_arrows:frost_arrows" set value 1
+execute as @e[type=#arrows,nbt={item:{components:{"minecraft:custom_data":{frost_arrows:1b}}}}] run data modify entity @s weapon.components."minecraft:enchantments"."frost_arrows:frost_arrows" set value 1
+execute as @e[type=#arrows] at @s on origin if entity @s[type=stray] run data merge entity @n {item:{components:{"minecraft:potion_contents":{custom_color:7596507,potion:""}}}}
+execute as @e[type=#arrows] at @s on origin if entity @s[type=stray] run data remove entity @n item.components."minecraft:potion_contents".custom_effects
