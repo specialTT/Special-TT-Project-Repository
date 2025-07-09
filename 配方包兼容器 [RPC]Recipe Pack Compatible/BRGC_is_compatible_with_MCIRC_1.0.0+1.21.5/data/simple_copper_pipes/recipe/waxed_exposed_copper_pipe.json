@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group":"copper_pipe",
+  "category": "redstone",
+  "ingredients": [
+    "simple_copper_pipes:exposed_copper_pipe",
+    "minecraft:honeycomb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simple_copper_pipes:waxed_exposed_copper_pipe"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group":"copper_fitting",
+  "category": "redstone",
+    "pattern": [
+        "###",
+        "# #",
+        "###"
+    ],
+    "key": {
+        "#": "copper_extension:weathered_copper_ingot"
+    },
+    "result": {
+        "id": "simple_copper_pipes:weathered_copper_fitting",
+        "count": 4
+    }
+}

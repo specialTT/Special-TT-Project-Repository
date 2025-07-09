@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group":"copper_fitting",
+  "category": "redstone",
+    "pattern": [
+        "###",
+        "# #",
+        "###"
+    ],
+    "key": {
+        "#": "copper_extension:exposed_copper_ingot"
+    },
+    "result": {
+        "id": "simple_copper_pipes:exposed_copper_fitting",
+        "count": 4
+    }
+}

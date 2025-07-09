@@ -1,0 +1,6 @@
+{
+  "targets": "name_tag",
+  "components": {
+    "minecraft:max_stack_size":1
+  }
+}

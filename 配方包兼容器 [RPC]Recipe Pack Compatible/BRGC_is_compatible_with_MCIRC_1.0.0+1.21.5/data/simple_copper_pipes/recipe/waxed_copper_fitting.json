@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group":"copper_fitting",
+  "category": "redstone",
+  "ingredients": [
+    "simple_copper_pipes:copper_fitting",
+    "minecraft:honeycomb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "simple_copper_pipes:waxed_copper_fitting"
+  }
+}

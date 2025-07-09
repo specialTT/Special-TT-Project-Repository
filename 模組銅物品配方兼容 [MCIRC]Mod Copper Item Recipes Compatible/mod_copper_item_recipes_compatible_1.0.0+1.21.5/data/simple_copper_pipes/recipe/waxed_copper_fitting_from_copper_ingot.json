@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "###",
+        "# #",
+        "###"
+    ],
+    "key": {
+        "#": "copper_extension:waxed_copper_ingot"
+    },
+    "result": {
+        "id": "simple_copper_pipes:waxed_copper_fitting",
+        "count": 4
+    }
+}

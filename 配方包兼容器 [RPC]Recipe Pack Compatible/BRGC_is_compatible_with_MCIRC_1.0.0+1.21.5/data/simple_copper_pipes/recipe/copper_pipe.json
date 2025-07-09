@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group":"copper_pipe",
+  "category": "redstone",
+  "key": {
+    "#": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "result": {
+    "count": 3,
+    "id": "simple_copper_pipes:copper_pipe"
+  }
+}
