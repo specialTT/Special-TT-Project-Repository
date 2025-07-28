@@ -1,0 +1,1 @@
+$execute as @n[nbt={UUID:$(attacker_UUID)}] if predicate {condition:"entity_properties",entity:"this",predicate:{targeted_entity:{nbt:"{UUID:$(target_UUID)}"}}} run data modify entity @n[nbt={UUID:$(attacker_UUID)}] data.target_UUID set value $(target_UUID)

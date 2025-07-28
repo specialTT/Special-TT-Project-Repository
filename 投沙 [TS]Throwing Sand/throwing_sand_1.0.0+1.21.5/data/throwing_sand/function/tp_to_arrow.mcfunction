@@ -1,0 +1,1 @@
+$tp @s @n[nbt={UUID:$(arrow_UUID)}]

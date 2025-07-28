@@ -1,3 +1,0 @@
-execute as @e[type=item,nbt={Item:{components: {"minecraft:custom_data": {powder_snow_bucket:1b}},id:"minecraft:powder_snow_bucket"}}] at @s run function leave_the_fluid_after_the_cauldron_is_destroyed:set_some_powder_snow
-execute as @e[type=item,nbt={Item:{components: {"minecraft:custom_data": {lava_bucket:1b}},id:"minecraft:lava_bucket"}}] at @s run function leave_the_fluid_after_the_cauldron_is_destroyed:set_some_lava
-execute as @e[type=item,nbt={Item:{components: {"minecraft:custom_data": {water_bucket:1b}},id:"minecraft:water_bucket"}}] at @s run function leave_the_fluid_after_the_cauldron_is_destroyed:set_some_water

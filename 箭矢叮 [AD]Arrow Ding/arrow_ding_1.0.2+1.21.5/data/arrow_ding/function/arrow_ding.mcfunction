@@ -1,0 +1,1 @@
+execute as @e[type=#arrows,tag=!silent] run data modify entity @s weapon.components."minecraft:enchantments"."arrow_ding:arrow_ding" set value 1

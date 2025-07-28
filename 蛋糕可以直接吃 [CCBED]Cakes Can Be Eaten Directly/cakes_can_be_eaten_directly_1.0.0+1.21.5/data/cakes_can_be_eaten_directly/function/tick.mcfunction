@@ -1,0 +1,3 @@
+execute as @e if items entity @s weapon.mainhand minecraft:cake[!minecraft:use_remainder] run item modify entity @s weapon.mainhand cakes_can_be_eaten_directly:cake
+execute as @e if items entity @s weapon.offhand minecraft:cake[!minecraft:use_remainder] run item modify entity @s weapon.offhand cakes_can_be_eaten_directly:cake
+execute as @e[type=item] if items entity @s container.0 minecraft:cake[!minecraft:use_remainder] run item modify entity @s container.0 cakes_can_be_eaten_directly:cake
