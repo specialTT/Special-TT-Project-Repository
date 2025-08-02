@@ -1,0 +1,8 @@
+{
+    "mob_effect.nightmare":{
+        "sounds":[
+            "nightmare:nightmare"
+        ],
+        "subtitle": "subtitles.mob_effect.nightmare"
+    }
+}

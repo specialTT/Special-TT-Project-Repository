@@ -1,0 +1,247 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "type": "#minecraft:skeletons"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand": true,
+          "name": "minecraft:creeper_drop_music_discs"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions":[
+        {
+          "condition":"entity_properties",
+          "entity":"this",
+          "predicate":{
+            "nbt":"{powered:1b}"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children":[
+            {
+              "type":"item",
+              "name":"minecraft:gunpowder",
+              "functions":[
+                {
+                  "function":"set_components",
+                  "components":{
+                    "minecraft:custom_data":{
+                      "powered_explode":1
+                    }
+                  }
+                }
+              ],
+              "conditions":[
+                {
+                  "condition":"damage_source_properties",
+                  "predicate":{
+                    "tags":[
+                      {
+                        "expected":true,
+                        "id":"minecraft:is_explosion"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type":"item",
+              "name":"minecraft:gunpowder",
+              "functions":[
+                {
+                  "function":"set_components",
+                  "components":{
+                    "minecraft:custom_data":{
+                      "powered_explode":1
+                    }
+                  }
+                }
+              ],
+              "conditions":[
+                {
+                  "condition":"damage_source_properties",
+                  "predicate":{
+                    "tags":[
+                      {
+                        "expected":true,
+                        "id":"minecraft:is_fire"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type":"item",
+              "name":"minecraft:gunpowder",
+              "functions":[
+                {
+                  "function":"set_components",
+                  "components":{
+                    "minecraft:custom_data":{
+                      "powered_explode":1
+                    }
+                  }
+                }
+              ],
+              "conditions":[
+                {
+                  "condition":"random_chance",
+                  "chance":0.1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions":[
+        {
+          "condition":"inverted",
+          "term":{
+            "condition":"entity_properties",
+            "entity":"this",
+            "predicate":{
+              "nbt":"{powered:1b}"
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children":[
+            {
+              "type":"item",
+              "name":"minecraft:gunpowder",
+              "functions":[
+                {
+                  "function":"set_components",
+                  "components":{
+                    "minecraft:custom_data":{
+                      "explode":1
+                    }
+                  }
+                }
+              ],
+              "conditions":[
+                {
+                  "condition":"damage_source_properties",
+                  "predicate":{
+                    "tags":[
+                      {
+                        "expected":true,
+                        "id":"minecraft:is_explosion"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type":"item",
+              "name":"minecraft:gunpowder",
+              "functions":[
+                {
+                  "function":"set_components",
+                  "components":{
+                    "minecraft:custom_data":{
+                      "explode":1
+                    }
+                  }
+                }
+              ],
+              "conditions":[
+                {
+                  "condition":"damage_source_properties",
+                  "predicate":{
+                    "tags":[
+                      {
+                        "expected":true,
+                        "id":"minecraft:is_fire"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type":"item",
+              "name":"minecraft:gunpowder",
+              "functions":[
+                {
+                  "function":"set_components",
+                  "components":{
+                    "minecraft:custom_data":{
+                      "explode":1
+                    }
+                  }
+                }
+              ],
+              "conditions":[
+                {
+                  "condition":"random_chance",
+                  "chance":0.1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/creeper"
+}

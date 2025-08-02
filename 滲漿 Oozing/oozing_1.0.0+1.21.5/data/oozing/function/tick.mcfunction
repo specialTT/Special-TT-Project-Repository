@@ -1,0 +1,2 @@
+item replace entity @e[type=slime] weapon.mainhand with minecraft:stick[minecraft:enchantments={"oozing:oozing":1}]
+execute as @e[type=slime] run data modify entity @s drop_chances set value {mainhand:0f}

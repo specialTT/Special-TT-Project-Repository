@@ -1,0 +1,8 @@
+{
+  "targets": ["rabbit_stew","beetroot_soup","mushroom_stew","suspicious_stew"],
+  "components": {
+    "minecraft:consumable":{
+      "sound":"entity.generic.drink"
+    }
+  }
+}

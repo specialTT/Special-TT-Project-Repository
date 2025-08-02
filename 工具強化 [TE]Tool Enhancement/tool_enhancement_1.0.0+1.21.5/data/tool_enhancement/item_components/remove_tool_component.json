@@ -1,0 +1,9 @@
+{
+  "targets": ["mace","trident"],
+  "components": {
+    "tool":{
+      "damage_per_block":0,
+      "rules":[]
+    }
+  }
+}

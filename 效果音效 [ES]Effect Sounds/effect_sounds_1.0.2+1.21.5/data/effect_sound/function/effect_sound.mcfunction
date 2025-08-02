@@ -1,0 +1,2 @@
+$execute as @e[type=#effect_sound:mobs,tag=!$(effect)] at @s if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{$(effect):{visible:true}}}} run function effect_sound:get_effect {volume:"$(volume)",pitch:"$(pitch)",sound:"$(sound)",effect:"$(effect)"}
+$execute as @e[type=#effect_sound:mobs,tag=$(effect)] unless predicate {condition:"entity_properties",entity:"this",predicate:{effects:{$(effect):{visible:true}}}} run tag @s remove $(effect)

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 7596507,
+                  "custom_name": "freeze"
+                },
+                "minecraft:custom_data": {
+                  "frost_arrows": 1
+                },
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "item.minecraft.tipped_arrow.effect.freeze.lore",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:potion_contents"
+                  ]
+                }
+              }
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

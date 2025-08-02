@@ -1,0 +1,30 @@
+{
+  "description": "frost_arrows",
+  "supported_items": "arrow",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand","offhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "frost_arrows:freeze"
+        },
+        "affected": "victim",
+        "enchanted": "attacker"
+      }
+    ]
+  }
+}

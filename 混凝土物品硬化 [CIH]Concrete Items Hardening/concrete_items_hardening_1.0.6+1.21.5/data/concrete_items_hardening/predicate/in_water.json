@@ -1,0 +1,70 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid":{
+                  "fluids":"#water"
+                }
+              }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block":{
+                  "state":{
+                    "waterlogged":"true"
+                  }
+                }
+              }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block":{
+                  "blocks":"water_cauldron"
+                }
+              }
+            }
+        },
+            {
+              "condition":"all_of",
+              "terms":[
+                {
+                  "condition":"weather_check",
+                  "raining":true
+                },
+                {
+                  "condition":"entity_properties",
+                  "entity":"this",
+                  "predicate":{
+                    "location":{
+                      "can_see_sky":true
+                    }
+                  }
+                },
+                {
+                  "condition":"inverted",
+                  "term":{
+                    "condition":"entity_properties",
+                    "entity":"this",
+                    "predicate":{
+                      "location":{
+                        "biomes":"#snow_golem_melts"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+    ]
+}

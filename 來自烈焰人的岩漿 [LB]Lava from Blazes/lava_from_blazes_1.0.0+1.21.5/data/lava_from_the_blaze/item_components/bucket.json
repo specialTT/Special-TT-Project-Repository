@@ -1,0 +1,14 @@
+{
+  "targets": "bucket",
+  "components": {
+    "minecraft:equippable":{
+      "slot":"body",
+      "equip_on_interact":true,
+      "allowed_entities":"blaze",
+      "equip_sound":{
+        "range":0,
+        "sound_id":"item.armor.equip_generic"
+      }
+    }
+  }
+}
