@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "Any item entity is immune to cactus damage."
+    }
+}

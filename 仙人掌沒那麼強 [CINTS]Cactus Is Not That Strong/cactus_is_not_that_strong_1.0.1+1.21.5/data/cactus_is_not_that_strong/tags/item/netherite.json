@@ -1,0 +1,57 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "required": false,
+            "id": "netherite_axe"
+        },
+        {
+            "required": false,
+            "id": "netherite_block"
+        },
+        {
+            "required": false,
+            "id": "netherite_boots"
+        },
+        {
+            "required": false,
+            "id": "netherite_chestplate"
+        },
+        {
+            "required": false,
+            "id": "netherite_helmet"
+        },
+        {
+            "required": false,
+            "id": "netherite_hoe"
+        },
+        {
+            "required": false,
+            "id": "netherite_ingot"
+        },
+        {
+            "required": false,
+            "id": "netherite_leggings"
+        },
+        {
+            "required": false,
+            "id": "netherite_pickaxe"
+        },
+        {
+            "required": false,
+            "id": "netherite_scrap"
+        },
+        {
+            "required": false,
+            "id": "netherite_shovel"
+        },
+        {
+            "required": false,
+            "id": "netherite_sword"
+        },
+        {
+            "required": false,
+            "id": "ancient_debris"
+        }
+    ]
+}

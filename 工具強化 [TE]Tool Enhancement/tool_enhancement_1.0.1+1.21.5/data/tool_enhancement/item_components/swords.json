@@ -1,0 +1,26 @@
+{
+  "targets": "#minecraft:swords",
+  "components": {
+    "tool":{
+      "damage_per_block":1,
+      "rules":[
+        {
+          "blocks":"#sword_efficient",
+          "correct_for_drops":true,
+          "speed":1.5
+        },
+        {
+          "blocks":"#sword_instantly_mines",
+          "correct_for_drops":true,
+          "speed":30
+        },
+        {
+          "blocks":"cobweb",
+          "correct_for_drops":true,
+          "speed":50
+        }
+      ],
+      "can_destroy_blocks_in_creative":false
+    }
+  }
+}

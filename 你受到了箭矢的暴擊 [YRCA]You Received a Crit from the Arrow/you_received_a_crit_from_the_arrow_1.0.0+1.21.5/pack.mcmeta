@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "Arrows shot by AI mobs are always crit arrows."
+    }
+}

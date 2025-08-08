@@ -1,0 +1,6 @@
+{
+  "parent": "cooked_carrot:item/cooked_golden_carrot",
+  "textures": {
+    "layer0": "cooked_carrot:item/cooked_golden_carrot_1"
+  }
+}

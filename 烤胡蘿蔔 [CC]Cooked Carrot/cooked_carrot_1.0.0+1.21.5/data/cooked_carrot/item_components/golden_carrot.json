@@ -1,0 +1,9 @@
+{
+  "targets": "golden_carrot",
+  "components": {
+    "minecraft:food":{
+      "nutrition":6,
+      "saturation":2.6
+    }
+  }
+}

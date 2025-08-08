@@ -1,0 +1,8 @@
+scoreboard objectives add cooldown_of_throwing_sand dummy
+scoreboard objectives add there_is_sand_nearby dummy
+scoreboard objectives add there_is_red_sand_nearby dummy
+scoreboard objectives add can_throw_sand dummy
+scoreboard objectives add find_the_sand dummy
+scoreboard objectives add for_motion_calculation dummy
+scoreboard objectives add for_motion_calculation_2 dummy
+scoreboard objectives add holding_sand_time dummy

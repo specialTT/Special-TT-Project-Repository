@@ -1,0 +1,2 @@
+execute as @e[type=#arrows,nbt={weapon:{id:"minecraft:bow"}}] at @s on origin if entity @s[type=#you_received_a_crit_from_the_arrow:ai_mob] run data modify entity @n crit set value 1b
+execute as @e[type=#arrows,nbt={weapon:{id:"minecraft:crossbow"}}] at @s on origin if entity @s[type=#you_received_a_crit_from_the_arrow:ai_mob] run data modify entity @n crit set value 1b
