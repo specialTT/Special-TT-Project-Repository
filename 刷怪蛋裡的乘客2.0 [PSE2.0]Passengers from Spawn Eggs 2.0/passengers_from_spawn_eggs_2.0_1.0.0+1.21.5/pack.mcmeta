@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "Makes the Passenger NBT work for entities in spawn eggs."
+    }
+}

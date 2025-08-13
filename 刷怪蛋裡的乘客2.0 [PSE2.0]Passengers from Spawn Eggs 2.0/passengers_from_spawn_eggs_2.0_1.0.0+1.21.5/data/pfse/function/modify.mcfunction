@@ -1,0 +1,1 @@
+$item modify entity @s $(slot) {function:"set_components",components:{custom_data:{modify:1b},entity_data:{id:"minecraft:marker",data:{replace_with_entity:$(entity_data)}}}}

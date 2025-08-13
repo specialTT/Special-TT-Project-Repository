@@ -1,0 +1,3 @@
+execute as @e[type=marker,nbt={data:{replace_with_entity:{}}}] at @s run function pfse:spawn with entity @s data.replace_with_entity
+execute as @a if data entity @s SelectedItem.components."minecraft:entity_data".Passengers unless items entity @s weapon.mainhand #pfse:spawn_egg[custom_data={modify:1b}] run function pfse:conversion {path:"SelectedItem",slot:"weapon.mainhand"}
+execute as @a if data entity @s equipment.offhand.components."minecraft:entity_data".Passengers unless items entity @s weapon.offhand #pfse:spawn_egg[custom_data={modify:1b}] run function pfse:conversion {path:"equipment.offhand",slot:"weapon.offhand"}
