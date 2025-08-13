@@ -1,0 +1,93 @@
+{
+  "description": "frozen_armor",
+  "supported_items": "snowball",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                  "expected": false,
+                  "id": "minecraft:bypasses_resistance"
+                  }
+                ]
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"frozen\"]}"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:location_changed":[
+      {
+        "effect":{
+          "type":"replace_block",
+          "block_state":{
+            "type":"simple_state_provider",
+            "state":{
+              "Name":"powder_snow"
+            }
+          }
+        },
+        "requirements":{
+          "condition":"all_of",
+          "terms":[
+            {
+              "condition":"random_chance",
+              "chance":0.005
+            },
+            {
+              "condition":"entity_properties",
+              "entity":"this",
+              "predicate":{
+                "location":{
+                  "biomes":[
+                    "frozen_ocean",
+                    "deep_frozen_ocean",
+                    "frozen_peaks",
+                    "grove",
+                    "snowy_slopes",
+                    "snowy_taiga",
+                    "frozen_river",
+                    "snowy_beach",
+                    "snowy_plains",
+                    "ice_spikes"
+                  ]
+                },
+                "flags":{
+                  "is_on_ground":true
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

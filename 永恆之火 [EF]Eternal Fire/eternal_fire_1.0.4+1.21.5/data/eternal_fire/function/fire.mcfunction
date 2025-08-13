@@ -1,0 +1,1 @@
+$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=blaze,dx=0,dy=0,dz=0] run function eternal_fire:$(type)_logic

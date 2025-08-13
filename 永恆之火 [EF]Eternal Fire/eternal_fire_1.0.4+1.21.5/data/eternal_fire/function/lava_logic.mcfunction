@@ -1,0 +1,1 @@
+execute if entity @s[scores={fire_logic=..299}] run scoreboard players set @s fire_logic 300
