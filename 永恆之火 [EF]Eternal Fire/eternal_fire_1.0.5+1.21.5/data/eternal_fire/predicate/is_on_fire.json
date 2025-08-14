@@ -1,0 +1,23 @@
+{
+  "condition":"any_of",
+  "terms":[
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags":{
+          "is_on_fire":true
+        }
+      }
+    },
+    {
+      "condition": "entity_scores",
+      "entity": "this",
+      "scores": {
+        "fire_logic":{
+          "min":1
+        }
+      }
+    }
+  ]
+}

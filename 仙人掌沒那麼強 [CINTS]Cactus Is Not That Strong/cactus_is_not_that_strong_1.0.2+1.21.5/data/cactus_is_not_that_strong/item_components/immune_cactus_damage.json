@@ -1,0 +1,8 @@
+{
+  "targets": "#cactus_is_not_that_strong:all",
+  "components": {
+    "minecraft:damage_resistant":{
+		  "types":"#cactus_is_not_that_strong:cactus_damage"
+	  }
+  }
+}
