@@ -1,0 +1,12 @@
+{
+  "targets": "iron_block",
+  "components": {
+    "minecraft:equippable":{
+      "slot":"saddle",
+      "equip_on_interact":true,
+      "allowed_entities":"iron_golem",
+      "dispensable":true,
+      "equip_sound":"entity.iron_golem.repair"
+    }
+  }
+}

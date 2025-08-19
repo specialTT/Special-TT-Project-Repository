@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "When mobs use equipment, the durability of the equipment will also be reduced."
+    }
+}

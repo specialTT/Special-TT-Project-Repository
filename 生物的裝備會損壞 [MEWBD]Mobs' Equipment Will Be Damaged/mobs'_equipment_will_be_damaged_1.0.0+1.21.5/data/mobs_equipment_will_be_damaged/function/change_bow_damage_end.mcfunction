@@ -1,0 +1,1 @@
+tag @s remove change_bow_damage

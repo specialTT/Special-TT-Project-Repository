@@ -1,0 +1,1 @@
+$execute unless entity @n[nbt={UUID:$(tp_to)}] run kill @s
