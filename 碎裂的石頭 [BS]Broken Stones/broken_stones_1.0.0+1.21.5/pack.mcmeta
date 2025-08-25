@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "Stone slabs and stone stairs will break into cobblestone after being destroyed, and can be restored to their original state through a furnace."
+    }
+}

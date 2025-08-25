@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "bake:item/uncooked_pumpkin_pie"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "entries": [
+		{
+          "model": {
+            "type": "minecraft:model",
+            "model": "bake:item/uncooked_pumpkin_pie_0"
+          },
+          "threshold": 0.33
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "bake:item/uncooked_pumpkin_pie_1"
+          },
+          "threshold": 0.66
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "bake:item/uncooked_pumpkin_pie_2"
+          },
+          "threshold": 1.2
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "bake:item/uncooked_pumpkin_pie"
+      },
+      "property": "minecraft:use_duration",
+      "scale": 0.05
+    },
+    "property": "minecraft:using_item"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components":{
+            "!death_protection":{},
+            "item_name":{
+                "translate":"item.minecraft.cooked_golden_carrot"
+            },
+            "item_model":"cooked_carrot:cooked_golden_carrot",
+            "max_stack_size":64,
+            "consumable":{},
+            "food":{
+                "nutrition":6,
+                "saturation":14.4
+            },
+            "rarity":"common"
+        }
+            }
+          ],
+          "name": "minecraft:totem_of_undying"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "type":"smelting",
+    "category":"food",
+    "experience":0.35,
+    "ingredient":"bread",
+    "result":{
+        "id":"totem_of_undying",
+        "components":{
+            "!death_protection":{},
+            "item_name":{
+              "translate":"item.minecraft.bread"
+            },
+            "item_model":"bread",
+            "max_stack_size":64,
+            "consumable":{},
+            "food":{
+                "nutrition":5,
+                "saturation":6
+            },
+            "rarity":"common"
+        }
+    }
+}

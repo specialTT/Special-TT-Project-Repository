@@ -1,0 +1,6 @@
+{
+  "parent": "bake:item/uncooked_cookie",
+  "textures": {
+    "layer0": "bake:item/uncooked_cookie_0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "type":"smelting",
+    "category":"food",
+    "experience":0.2,
+    "ingredient":"cookie",
+    "cookingtime":100,
+    "result":{
+        "id":"totem_of_undying",
+        "components":{
+            "!death_protection":{},
+            "item_name":{
+              "translate":"item.minecraft.cookie"
+            },
+            "item_model":"cookie",
+            "max_stack_size":64,
+            "consumable":{},
+            "food":{
+                "nutrition":2,
+                "saturation":0.4
+            },
+            "rarity":"common"
+        }
+    }
+}

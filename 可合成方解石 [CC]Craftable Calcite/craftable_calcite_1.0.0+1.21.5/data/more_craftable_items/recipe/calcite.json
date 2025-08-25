@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:stone",
+        "bone"
+    ],
+    "result": {
+        "id": "minecraft:calcite",
+        "count": 1
+    }
+}

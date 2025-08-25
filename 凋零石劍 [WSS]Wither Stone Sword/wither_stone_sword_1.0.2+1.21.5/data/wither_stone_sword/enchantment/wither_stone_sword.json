@@ -1,0 +1,46 @@
+{
+  "description": {
+    "translate":"effect.minecraft.wither",
+    "color":"red",
+    "extra": [
+      {
+        "translate": "potion.withDuration",
+        "with": [
+          "",
+          "00:10"
+        ]
+      }
+    ]
+  },
+  "supported_items": "stone_sword",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:wither",
+          "min_amplifier": 1,
+          "max_amplifier": 1,
+          "min_duration": 10,
+          "max_duration": 10
+        },
+        "affected": "victim",
+        "enchanted": "attacker"
+      }
+    ]
+  }
+}

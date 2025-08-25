@@ -1,0 +1,6 @@
+{
+  "parent": "bake:item/uncooked_pumpkin_pie",
+  "textures": {
+    "layer0": "bake:item/uncooked_pumpkin_pie_2"
+  }
+}

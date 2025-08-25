@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "A Mushroom Block will drop itself when broken, and can be broken down into Mushrooms."
+    }
+}

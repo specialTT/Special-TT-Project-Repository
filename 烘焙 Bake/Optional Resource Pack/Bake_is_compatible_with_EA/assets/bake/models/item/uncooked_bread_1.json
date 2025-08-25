@@ -1,0 +1,6 @@
+{
+  "parent": "bake:item/uncooked_bread",
+  "textures": {
+    "layer0": "bake:item/uncooked_bread_1"
+  }
+}

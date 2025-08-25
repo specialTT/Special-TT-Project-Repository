@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components":{
+            "!death_protection":{},
+            "item_name":{
+              "translate":"item.minecraft.pumpkin_pie"
+            },
+            "item_model":"pumpkin_pie",
+            "max_stack_size":64,
+            "consumable":{},
+            "food":{
+                "nutrition":8,
+                "saturation":4.8
+            },
+            "rarity":"common"
+        }
+            }
+          ],
+          "name": "minecraft:totem_of_undying"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

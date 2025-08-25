@@ -1,0 +1,793 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "minecraft:cake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites":"0"
+          }
+        }
+      ],
+      "functions":[
+        {
+    "function":"set_components",
+    "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+    "minecraft:lore":[
+      {
+        "translate":"cake_7.lore",
+        "color":"dark_gray",
+        "italic":false
+      }
+    ],
+    "minecraft:use_remainder":{
+      "id":"minecraft:cake",
+      "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+        "minecraft:lore":[
+          {
+            "translate":"cake_6.lore",
+            "color":"dark_gray",
+            "italic":false
+          }
+        ],
+        "minecraft:block_state":{
+          "bites":"1"
+        },
+        "minecraft:item_model":"cakes_can_be_eaten_directly:cake_6",
+        "minecraft:use_remainder":{
+          "id":"minecraft:cake",
+          "components": {
+            "minecraft:food":{
+              "nutrition":2,
+              "saturation":0.4
+        },
+        "minecraft:consumable":{
+          "consume_seconds":0.05
+        },
+            "minecraft:lore":[
+              {
+                "translate":"cake_5.lore",
+                "color":"dark_gray",
+                "italic":false
+              }
+            ],
+            "minecraft:block_state":{
+              "bites":"2"
+            },
+            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_5",
+            "minecraft:use_remainder":{
+              "id":"minecraft:cake",
+              "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                "minecraft:lore":[
+                  {
+                    "translate":"cake_4.lore",
+                    "color":"dark_gray",
+                    "italic":false
+                  }
+                ],
+                "minecraft:block_state":{
+                  "bites":"3"
+                },
+                "minecraft:item_model":"cakes_can_be_eaten_directly:cake_4",
+                "minecraft:use_remainder":{
+                  "id":"minecraft:cake",
+                  "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                    "minecraft:lore":[
+                      {
+                        "translate":"cake_3.lore",
+                        "color":"dark_gray",
+                        "italic":false
+                      }
+                    ],
+                    "minecraft:block_state":{
+                      "bites":"4"
+                    },
+                    "minecraft:item_model":"cakes_can_be_eaten_directly:cake_3",
+                    "minecraft:use_remainder":{
+                      "id":"minecraft:cake",
+                      "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                        "minecraft:lore":[
+                          {
+                            "translate":"cake_2.lore",
+                            "color":"dark_gray",
+                            "italic":false
+                          }
+                        ],
+                        "minecraft:block_state":{
+                          "bites":"5"
+                        },
+                        "minecraft:item_model":"cakes_can_be_eaten_directly:cake_2",
+                        "minecraft:use_remainder":{
+                          "id":"minecraft:cake",
+                          "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                            "minecraft:lore":[
+                              {
+                                "translate":"cake_1.lore",
+                                "color":"dark_gray",
+                                "italic":false
+                              }
+                            ],
+                            "minecraft:block_state":{
+                              "bites":"6"
+                            },
+                            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_1"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "minecraft:cake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites":"1"
+          }
+        }
+      ],
+      "functions":[
+        {
+    "function":"set_components",
+      "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+        "minecraft:lore":[
+          {
+            "translate":"cake_6.lore",
+            "color":"dark_gray",
+            "italic":false
+          }
+        ],
+        "minecraft:block_state":{
+          "bites":"1"
+        },
+        "minecraft:item_model":"cakes_can_be_eaten_directly:cake_6",
+        "minecraft:use_remainder":{
+          "id":"minecraft:cake",
+          "components": {
+            "minecraft:food":{
+              "nutrition":2,
+              "saturation":0.4
+        },
+        "minecraft:consumable":{
+          "consume_seconds":0.05
+        },
+            "minecraft:lore":[
+              {
+                "translate":"cake_5.lore",
+                "color":"dark_gray",
+                "italic":false
+              }
+            ],
+            "minecraft:block_state":{
+              "bites":"2"
+            },
+            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_5",
+            "minecraft:use_remainder":{
+              "id":"minecraft:cake",
+              "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                "minecraft:lore":[
+                  {
+                    "translate":"cake_4.lore",
+                    "color":"dark_gray",
+                    "italic":false
+                  }
+                ],
+                "minecraft:block_state":{
+                  "bites":"3"
+                },
+                "minecraft:item_model":"cakes_can_be_eaten_directly:cake_4",
+                "minecraft:use_remainder":{
+                  "id":"minecraft:cake",
+                  "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                    "minecraft:lore":[
+                      {
+                        "translate":"cake_3.lore",
+                        "color":"dark_gray",
+                        "italic":false
+                      }
+                    ],
+                    "minecraft:block_state":{
+                      "bites":"4"
+                    },
+                    "minecraft:item_model":"cakes_can_be_eaten_directly:cake_3",
+                    "minecraft:use_remainder":{
+                      "id":"minecraft:cake",
+                      "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                        "minecraft:lore":[
+                          {
+                            "translate":"cake_2.lore",
+                            "color":"dark_gray",
+                            "italic":false
+                          }
+                        ],
+                        "minecraft:block_state":{
+                          "bites":"5"
+                        },
+                        "minecraft:item_model":"cakes_can_be_eaten_directly:cake_2",
+                        "minecraft:use_remainder":{
+                          "id":"minecraft:cake",
+                          "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                            "minecraft:lore":[
+                              {
+                                "translate":"cake_1.lore",
+                                "color":"dark_gray",
+                                "italic":false
+                              }
+                            ],
+                            "minecraft:block_state":{
+                              "bites":"6"
+                            },
+                            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_1"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "minecraft:cake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites":"2"
+          }
+        }
+      ],
+      "functions":[
+        {
+    "function":"set_components",
+          "components": {
+            "minecraft:food":{
+              "nutrition":2,
+              "saturation":0.4
+        },
+        "minecraft:consumable":{
+          "consume_seconds":0.05
+        },
+            "minecraft:lore":[
+              {
+                "translate":"cake_5.lore",
+                "color":"dark_gray",
+                "italic":false
+              }
+            ],
+            "minecraft:block_state":{
+              "bites":"2"
+            },
+            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_5",
+            "minecraft:use_remainder":{
+              "id":"minecraft:cake",
+              "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                "minecraft:lore":[
+                  {
+                    "translate":"cake_4.lore",
+                    "color":"dark_gray",
+                    "italic":false
+                  }
+                ],
+                "minecraft:block_state":{
+                  "bites":"3"
+                },
+                "minecraft:item_model":"cakes_can_be_eaten_directly:cake_4",
+                "minecraft:use_remainder":{
+                  "id":"minecraft:cake",
+                  "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                    "minecraft:lore":[
+                      {
+                        "translate":"cake_3.lore",
+                        "color":"dark_gray",
+                        "italic":false
+                      }
+                    ],
+                    "minecraft:block_state":{
+                      "bites":"4"
+                    },
+                    "minecraft:item_model":"cakes_can_be_eaten_directly:cake_3",
+                    "minecraft:use_remainder":{
+                      "id":"minecraft:cake",
+                      "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                        "minecraft:lore":[
+                          {
+                            "translate":"cake_2.lore",
+                            "color":"dark_gray",
+                            "italic":false
+                          }
+                        ],
+                        "minecraft:block_state":{
+                          "bites":"5"
+                        },
+                        "minecraft:item_model":"cakes_can_be_eaten_directly:cake_2",
+                        "minecraft:use_remainder":{
+                          "id":"minecraft:cake",
+                          "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                            "minecraft:lore":[
+                              {
+                                "translate":"cake_1.lore",
+                                "color":"dark_gray",
+                                "italic":false
+                              }
+                            ],
+                            "minecraft:block_state":{
+                              "bites":"6"
+                            },
+                            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_1"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "minecraft:cake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites":"3"
+          }
+        }
+      ],
+      "functions":[
+        {
+    "function":"set_components",
+              "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                "minecraft:lore":[
+                  {
+                    "translate":"cake_4.lore",
+                    "color":"dark_gray",
+                    "italic":false
+                  }
+                ],
+                "minecraft:block_state":{
+                  "bites":"3"
+                },
+                "minecraft:item_model":"cakes_can_be_eaten_directly:cake_4",
+                "minecraft:use_remainder":{
+                  "id":"minecraft:cake",
+                  "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                    "minecraft:lore":[
+                      {
+                        "translate":"cake_3.lore",
+                        "color":"dark_gray",
+                        "italic":false
+                      }
+                    ],
+                    "minecraft:block_state":{
+                      "bites":"4"
+                    },
+                    "minecraft:item_model":"cakes_can_be_eaten_directly:cake_3",
+                    "minecraft:use_remainder":{
+                      "id":"minecraft:cake",
+                      "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                        "minecraft:lore":[
+                          {
+                            "translate":"cake_2.lore",
+                            "color":"dark_gray",
+                            "italic":false
+                          }
+                        ],
+                        "minecraft:block_state":{
+                          "bites":"5"
+                        },
+                        "minecraft:item_model":"cakes_can_be_eaten_directly:cake_2",
+                        "minecraft:use_remainder":{
+                          "id":"minecraft:cake",
+                          "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                            "minecraft:lore":[
+                              {
+                                "translate":"cake_1.lore",
+                                "color":"dark_gray",
+                                "italic":false
+                              }
+                            ],
+                            "minecraft:block_state":{
+                              "bites":"6"
+                            },
+                            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_1"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "minecraft:cake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites":"4"
+          }
+        }
+      ],
+      "functions":[
+        {
+    "function":"set_components",
+                  "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                    "minecraft:lore":[
+                      {
+                        "translate":"cake_3.lore",
+                        "color":"dark_gray",
+                        "italic":false
+                      }
+                    ],
+                    "minecraft:block_state":{
+                      "bites":"4"
+                    },
+                    "minecraft:item_model":"cakes_can_be_eaten_directly:cake_3",
+                    "minecraft:use_remainder":{
+                      "id":"minecraft:cake",
+                      "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                        "minecraft:lore":[
+                          {
+                            "translate":"cake_2.lore",
+                            "color":"dark_gray",
+                            "italic":false
+                          }
+                        ],
+                        "minecraft:block_state":{
+                          "bites":"5"
+                        },
+                        "minecraft:item_model":"cakes_can_be_eaten_directly:cake_2",
+                        "minecraft:use_remainder":{
+                          "id":"minecraft:cake",
+                          "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                            "minecraft:lore":[
+                              {
+                                "translate":"cake_1.lore",
+                                "color":"dark_gray",
+                                "italic":false
+                              }
+                            ],
+                            "minecraft:block_state":{
+                              "bites":"6"
+                            },
+                            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_1"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "minecraft:cake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites":"5"
+          }
+        }
+      ],
+      "functions":[
+        {
+    "function":"set_components",
+                      "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                        "minecraft:lore":[
+                          {
+                            "translate":"cake_2.lore",
+                            "color":"dark_gray",
+                            "italic":false
+                          }
+                        ],
+                        "minecraft:block_state":{
+                          "bites":"5"
+                        },
+                        "minecraft:item_model":"cakes_can_be_eaten_directly:cake_2",
+                        "minecraft:use_remainder":{
+                          "id":"minecraft:cake",
+                          "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                            "minecraft:lore":[
+                              {
+                                "translate":"cake_1.lore",
+                                "color":"dark_gray",
+                                "italic":false
+                              }
+                            ],
+                            "minecraft:block_state":{
+                              "bites":"6"
+                            },
+                            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_1"
+                      }
+                    }
+                  }
+                }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "minecraft:cake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites":"6"
+          }
+        }
+      ],
+      "functions":[
+        {
+    "function":"set_components",
+                          "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+                            "minecraft:lore":[
+                              {
+                                "translate":"cake_1.lore",
+                                "color":"dark_gray",
+                                "italic":false
+                              }
+                            ],
+                            "minecraft:block_state":{
+                              "bites":"6"
+                            },
+                            "minecraft:item_model":"cakes_can_be_eaten_directly:cake_1"
+                      }
+                    }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/cake"
+}

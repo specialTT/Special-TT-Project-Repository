@@ -1,0 +1,27 @@
+{
+  "targets": "pumpkin_pie",
+  "components": {
+    "minecraft:food":{
+      "nutrition":3,
+      "saturation":1.5
+    },
+    "minecraft:consumable":{
+      "on_consume_effects":[
+        {
+          "type":"apply_effects",
+          "effects":[
+            {
+              "duration":600,
+              "id":"hunger"
+            }
+          ],
+          "probability":0.5
+        }
+      ]
+    },
+    "item_name":{
+      "translate":"item.bake.uncooked_pumpkin_pie"
+    },
+    "item_model":"bake:uncooked_pumpkin_pie"
+  }
+}

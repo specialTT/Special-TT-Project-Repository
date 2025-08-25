@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+        "components":{
+            "!death_protection":{},
+            "item_name":{
+              "translate":"item.minecraft.bread"
+            },
+            "item_model":"bread",
+            "max_stack_size":64,
+            "consumable":{},
+            "food":{
+                "nutrition":5,
+                "saturation":6
+            },
+            "rarity":"common"
+        }
+            }
+          ],
+          "name": "minecraft:totem_of_undying"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

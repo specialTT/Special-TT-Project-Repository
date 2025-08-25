@@ -1,0 +1,67 @@
+{
+  "description": "bow_damage",
+  "supported_items": "bow",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function":"mobs_equipment_will_be_damaged:change_bow_damage"
+        },
+        "requirements":[
+          {
+            "condition":"entity_properties",
+            "entity":"this",
+            "predicate":{
+              "type":"trident"
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects":[
+            {
+              "type": "change_item_damage",
+              "amount": {
+                "type":"linear",
+                "base":1,
+                "per_level_above_first":1
+              }
+            },
+            {
+              "type": "run_function",
+              "function":"mobs_equipment_will_be_damaged:change_bow_damage_end"
+            }
+          ]
+        },
+        "requirements":[
+          {
+            "condition":"entity_properties",
+            "entity":"this",
+            "predicate":{
+              "nbt":"{Tags:[\"change_bow_damage\"]}"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

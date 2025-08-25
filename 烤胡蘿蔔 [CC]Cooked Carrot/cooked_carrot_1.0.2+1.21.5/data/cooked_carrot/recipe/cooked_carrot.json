@@ -1,0 +1,23 @@
+{
+    "type":"smelting",
+    "category":"food",
+    "experience":0.35,
+    "ingredient":"carrot",
+    "result":{
+        "id":"totem_of_undying",
+        "components":{
+            "!death_protection":{},
+            "item_name":{
+                "translate":"item.minecraft.cooked_carrot"
+            },
+            "item_model":"cooked_carrot:cooked_carrot",
+            "max_stack_size":64,
+            "consumable":{},
+            "food":{
+                "nutrition":3,
+                "saturation":3.6
+            },
+            "rarity":"common"
+        }
+    }
+}
