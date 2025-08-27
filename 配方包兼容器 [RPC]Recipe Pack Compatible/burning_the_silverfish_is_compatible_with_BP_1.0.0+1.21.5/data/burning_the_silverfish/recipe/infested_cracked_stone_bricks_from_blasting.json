@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "experience": 0.1,
+  "ingredient": "minecraft:infested_cracked_stone_bricks",
+  "result": {
+    "id": "minecraft:cracked_stone_bricks"
+  }
+}

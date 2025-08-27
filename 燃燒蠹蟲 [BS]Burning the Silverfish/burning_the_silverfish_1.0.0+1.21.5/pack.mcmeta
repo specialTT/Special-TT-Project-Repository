@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "Destroying an infested block with a tool enchanted with Silk Touch will cause it to drop itself. Smelting it in a furnace can restore it to its uninfested state."
+    }
+}

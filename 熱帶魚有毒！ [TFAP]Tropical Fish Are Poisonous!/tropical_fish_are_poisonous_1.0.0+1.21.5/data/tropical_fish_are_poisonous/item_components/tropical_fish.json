@@ -1,0 +1,22 @@
+{
+  "targets": "tropical_fish",
+  "components": {
+    "minecraft:consumable":{
+      "on_consume_effects":[
+        {
+          "type":"apply_effects",
+          "effects":[
+            {
+              "duration":600,
+              "id":"hunger"
+            },
+            {
+              "duration":100,
+              "id":"poison"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "Every time an Ender Dragon is killed, it will generating a dragon egg."
+    }
+}
