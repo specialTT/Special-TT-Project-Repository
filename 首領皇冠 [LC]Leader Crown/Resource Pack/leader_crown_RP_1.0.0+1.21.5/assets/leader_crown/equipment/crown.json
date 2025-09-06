@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "leader_crown:crown"
+            }
+        ]
+    }
+}

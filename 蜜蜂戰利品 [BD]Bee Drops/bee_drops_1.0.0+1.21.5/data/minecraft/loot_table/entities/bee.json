@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand":true,
+          "name": "minecraft:bee_loot"
+        }
+      ],
+      "rolls": {
+        "type":"minecraft:uniform",
+        "min":0,
+        "max":2
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand":true,
+          "name": "minecraft:bee_loot"
+        }
+      ],
+      "rolls": {
+        "type":"minecraft:uniform",
+        "min":0,
+        "max":{
+          "type":"score",
+          "target":"attacker",
+          "score":"looting_level"
+        }
+      }
+    }
+  ],
+  "random_sequence": "minecraft:entities/bee"
+}

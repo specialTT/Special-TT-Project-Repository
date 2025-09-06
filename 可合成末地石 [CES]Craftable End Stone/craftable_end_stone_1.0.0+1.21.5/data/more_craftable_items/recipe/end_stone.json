@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "G# ",
+        "#G "
+    ],
+    "key": {
+        "#": "minecraft:popped_chorus_fruit",
+        "G": "minecraft:cobblestone"
+    },
+    "result": {
+        "id": "minecraft:end_stone",
+        "count": 2
+    }
+}

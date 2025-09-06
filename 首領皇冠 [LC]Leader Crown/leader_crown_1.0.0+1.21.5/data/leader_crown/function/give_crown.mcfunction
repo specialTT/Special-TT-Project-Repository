@@ -1,0 +1,1 @@
+give @s netherite_helmet[equippable={slot:"head",asset_id:"leader_crown:crown",equip_sound:"item.armor.equip_netherite"},item_model="leader_crown:crown",attribute_modifiers=[{id:"armor.helmet",amount:4,type:"armor",slot:"head",operation:"add_value"}],item_name={translate:"item.leader_crown.crown"},rarity="epic"]

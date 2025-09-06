@@ -1,0 +1,2 @@
+execute as @e[type=item] if items entity @s container.0 turtle_egg[minecraft:custom_data={function:"break"}] at @s run setblock ~ ~ ~ air
+execute as @e[type=item] if items entity @s container.0 turtle_egg[minecraft:custom_data={function:"break"}] run kill @s

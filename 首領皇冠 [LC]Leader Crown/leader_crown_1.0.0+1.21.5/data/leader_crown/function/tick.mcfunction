@@ -1,0 +1,2 @@
+execute as @e[type=#zombies,tag=!crown] if data entity @s attributes[{id:"minecraft:spawn_reinforcements"}].modifiers[{id:"minecraft:leader_zombie_bonus"}] run item replace entity @s armor.head with netherite_helmet[equippable={slot:"head",asset_id:"leader_crown:crown",equip_sound:"item.armor.equip_netherite"},item_model="leader_crown:crown",attribute_modifiers=[{id:"armor.helmet",amount:4,type:"armor",slot:"head",operation:"add_value"}],item_name={translate:"item.leader_crown.crown"},rarity="epic"]
+tag @e[type=#zombies,tag=!crown] add crown

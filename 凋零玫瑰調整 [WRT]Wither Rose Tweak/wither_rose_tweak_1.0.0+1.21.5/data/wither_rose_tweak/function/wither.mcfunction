@@ -1,0 +1,29 @@
+execute positioned ~1 ~ ~1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~1 ~ ~ align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~1 ~ ~-1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~ ~ ~1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~ ~ ~ align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~ ~ ~-1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~-1 ~ ~1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~-1 ~ ~ align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~-1 ~ ~-1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+
+execute positioned ~1 ~1 ~1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~1 ~1 ~ align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~1 ~1 ~-1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~ ~1 ~1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~ ~1 ~ align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~ ~1 ~-1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~-1 ~1 ~1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~-1 ~1 ~ align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~-1 ~1 ~-1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+
+execute positioned ~1 ~2 ~1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~1 ~2 ~ align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~1 ~2 ~-1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~ ~2 ~1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~ ~2 ~ align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~ ~2 ~-1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~-1 ~2 ~1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~-1 ~2 ~ align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
+execute positioned ~-1 ~2 ~-1 align xyz if block ~ ~ ~ wither_rose run effect give @e[dx=0,dy=0,dz=0,predicate=wither_rose_tweak:wither_rose] wither 4 0
