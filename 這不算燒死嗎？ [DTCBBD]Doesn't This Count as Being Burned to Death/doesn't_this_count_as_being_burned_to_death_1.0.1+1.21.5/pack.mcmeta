@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "Animals killed by Magma Blocks or Campfires will also drop cooked meat."
+    }
+}
