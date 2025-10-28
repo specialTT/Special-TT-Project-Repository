@@ -1,0 +1,2 @@
+scoreboard objectives add for_motion_calculation dummy
+scoreboard objectives add for_motion_calculation_2 dummy

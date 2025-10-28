@@ -1,0 +1,2 @@
+execute if data entity @s Item.components."minecraft:custom_data".offhand_item at @s run function throwing_sand:summon_item with entity @s Item.components."minecraft:custom_data"
+$item replace entity @s container.0 with $(sand_type)

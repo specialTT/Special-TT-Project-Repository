@@ -1,2 +1,2 @@
-$playsound $(sound) player @r ~ ~ ~ $(volume) $(pitch)
+$playsound $(sound) player @a ~ ~ ~ $(volume) $(pitch)
 $tag @s add $(effect)

@@ -1,0 +1,1 @@
+$summon $(entity_type) ~ ~ ~ $(nbt)
