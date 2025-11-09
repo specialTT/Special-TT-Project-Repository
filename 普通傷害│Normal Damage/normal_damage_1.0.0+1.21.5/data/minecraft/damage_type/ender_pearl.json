@@ -1,0 +1,6 @@
+{
+  "death_message_type": "fall_variants",
+  "exhaustion": 0.0,
+  "message_id": "fall",
+  "scaling": "never"
+}

@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "All damage taken by the player does not scale with difficulty."
+    }
+}
