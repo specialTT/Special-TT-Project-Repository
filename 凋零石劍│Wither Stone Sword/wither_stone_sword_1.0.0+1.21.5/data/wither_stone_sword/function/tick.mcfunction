@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:wither_skeleton] if items entity @s weapon.mainhand stone_sword run enchant @s wither_stone_sword:wither_stone_sword 1

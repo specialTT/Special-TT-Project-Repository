@@ -1,0 +1,2 @@
+data remove storage minecraft:ender_dragon_loot loot_table_list
+function #ender_dragon_loot:loot_table_list

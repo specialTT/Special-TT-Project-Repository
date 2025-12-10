@@ -1,7 +1,0 @@
-{
-    "pack": { 
-        "pack_format": 57,
-        "supported_formats": ["48","57"],
-        "description": "特特自製數據包"
-    }
-}

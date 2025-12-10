@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "When an ore is destroyed, it will drop the corresponding rock and minerals."
+    }
+}

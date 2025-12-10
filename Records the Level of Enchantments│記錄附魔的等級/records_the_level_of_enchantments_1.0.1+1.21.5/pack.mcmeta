@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "The Fortune and Looting enchantment levels of the equipment held by the mob are recorded as scoreboard scores to facilitate the definition of loot tables."
+    }
+}

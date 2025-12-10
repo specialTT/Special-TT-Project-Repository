@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "inventory_changed":{
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ],
+  "rewards":{
+    "function": "item_names_support_text_components:tick"
+  }
+}

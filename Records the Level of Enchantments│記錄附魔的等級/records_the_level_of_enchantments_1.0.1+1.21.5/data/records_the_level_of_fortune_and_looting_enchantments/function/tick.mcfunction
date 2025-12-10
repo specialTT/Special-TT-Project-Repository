@@ -1,0 +1,8 @@
+execute as @e[type=#records_the_level_of_fortune_and_looting_enchantments:ai_mobs,predicate=records_the_level_of_fortune_and_looting_enchantments:looting] store result score @s looting_level run data get entity @s equipment.mainhand.components."minecraft:enchantments"."minecraft:looting"
+execute as @e[type=#records_the_level_of_fortune_and_looting_enchantments:ai_mobs,predicate=!records_the_level_of_fortune_and_looting_enchantments:looting] run scoreboard players set @s looting_level 0
+execute as @e[type=#records_the_level_of_fortune_and_looting_enchantments:ai_mobs,predicate=records_the_level_of_fortune_and_looting_enchantments:fortune] store result score @s fortune_level run data get entity @s equipment.mainhand.components."minecraft:enchantments"."minecraft:fortune"
+execute as @e[type=#records_the_level_of_fortune_and_looting_enchantments:ai_mobs,predicate=!records_the_level_of_fortune_and_looting_enchantments:fortune] run scoreboard players set @s fortune_level 0
+execute as @a[predicate=records_the_level_of_fortune_and_looting_enchantments:looting] store result score @s looting_level run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:looting"
+execute as @a[predicate=!records_the_level_of_fortune_and_looting_enchantments:looting] run scoreboard players set @s looting_level 0
+execute as @a[predicate=records_the_level_of_fortune_and_looting_enchantments:fortune] store result score @s fortune_level run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:fortune"
+execute as @a[predicate=!records_the_level_of_fortune_and_looting_enchantments:fortune] run scoreboard players set @s fortune_level 0
