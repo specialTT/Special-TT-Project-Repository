@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "When a player dies, a relic chest is generated to preserve the items in the player's inventory at the time of death, preventing the items from being destroyed.",
+    "pack_format": 81
+  }
+}

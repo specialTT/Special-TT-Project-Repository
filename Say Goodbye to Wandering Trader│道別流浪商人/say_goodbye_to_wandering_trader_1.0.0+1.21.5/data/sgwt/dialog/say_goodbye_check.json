@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {"translate": "sgwt.say_goodbye_check.title"},
+    "actions": [
+        {
+            "label": {"translate": "sgwt.say_goodbye_check.action_1"},
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger say_goodbye set 1"
+            }
+        },
+        {
+            "label": {"translate": "sgwt.say_goodbye_check.action_2"}
+        }
+    ]
+}

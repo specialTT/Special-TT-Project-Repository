@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "player_interacted_with_wandering_trader":{
+      "conditions": {
+        "entity": {
+          "type": "wandering_trader"
+        },
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "requirements": [
+    [
+      "player_interacted_with_wandering_trader"
+    ]
+  ],
+  "rewards": {
+    "function": "sgwt:dialog"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "targets": "snowball",
+  "components": {
+    "minecraft:equippable":{
+      "slot":"body",
+      "equip_on_interact":true,
+      "allowed_entities":"snow_golem",
+      "dispensable":true,
+      "equip_sound":"entity.snow_golem.hurt"
+    }
+  }
+}

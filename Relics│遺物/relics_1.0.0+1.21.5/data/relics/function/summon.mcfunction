@@ -1,0 +1,2 @@
+$execute at @s run summon block_display ~-0.5 ~ ~-0.5 {block_state:{Name:"chest"},Tags:["relics"],Glowing:1b,data:{UUID:$(UUID)}}
+$execute at @s run summon minecraft:item_display ~ ~1 ~ {item:{id:"iron_ingot",components:{"item_model":"air"}},Tags:["relics"],CustomNameVisible:1b,CustomName:"Relics Box",data:{UUID:$(UUID)}}

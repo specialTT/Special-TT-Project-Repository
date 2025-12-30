@@ -1,0 +1,1 @@
+$execute as @e[type=wandering_trader,nbt={data:{player_UUID:$(UUID)}}] at @s run data remove entity @s data.player_UUID

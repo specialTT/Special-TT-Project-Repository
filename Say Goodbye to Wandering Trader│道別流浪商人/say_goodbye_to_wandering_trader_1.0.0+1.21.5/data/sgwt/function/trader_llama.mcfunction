@@ -1,0 +1,1 @@
+#$execute as @e[type=trader_llama,nbt={leash:{UUID:$(UUID)}}] run data modify entity @s DespawnDelay set value 100
