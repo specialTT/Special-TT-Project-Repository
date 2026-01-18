@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "using":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "recovery_compass"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "compass_tweak:using_recovery_compass"
+    }
+}

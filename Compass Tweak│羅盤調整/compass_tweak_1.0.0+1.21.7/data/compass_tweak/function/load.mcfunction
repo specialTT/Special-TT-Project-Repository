@@ -1,0 +1,1 @@
+scoreboard objectives add compass_tweak.death_count deathCount

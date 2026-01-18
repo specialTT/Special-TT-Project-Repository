@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "Holding down the right mouse button while holding a compass will display the Position and Dimension it indicates; using the Recovery Compass will teleport the player to the location where they last died."
+    }
+}

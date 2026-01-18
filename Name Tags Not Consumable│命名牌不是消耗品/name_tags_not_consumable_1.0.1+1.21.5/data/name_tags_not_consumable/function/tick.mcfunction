@@ -1,0 +1,3 @@
+execute as @a if items entity @s weapon.mainhand minecraft:name_tag run function name_tags_not_consumable:mainhand_name_tag_data with entity @s
+execute as @a unless items entity @s weapon.mainhand minecraft:name_tag if items entity @s weapon.offhand minecraft:name_tag run function name_tags_not_consumable:offhand_name_tag_data with entity @s
+execute as @a[advancements={name_tags_not_consumable:used_name_tag=true},gamemode=!creative] run function name_tags_not_consumable:used_name_tag with entity @s

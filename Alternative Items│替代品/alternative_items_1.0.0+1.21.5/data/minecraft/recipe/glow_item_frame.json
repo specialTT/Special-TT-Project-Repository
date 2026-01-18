@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:item_frame",
+    "#minecraft:glowing_items"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:glow_item_frame"
+  }
+}

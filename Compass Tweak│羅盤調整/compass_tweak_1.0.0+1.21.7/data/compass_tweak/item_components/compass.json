@@ -1,0 +1,10 @@
+{
+  "targets": "compass",
+  "components": {
+    "minecraft:consumable":{
+      "animation":"none",
+      "consume_seconds":1000000
+    },
+    "minecraft:max_stack_size":1
+  }
+}

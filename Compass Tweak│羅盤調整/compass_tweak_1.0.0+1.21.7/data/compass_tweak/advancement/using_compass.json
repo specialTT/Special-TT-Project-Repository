@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "using":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "compass"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "compass_tweak:using_compass"
+    }
+}
