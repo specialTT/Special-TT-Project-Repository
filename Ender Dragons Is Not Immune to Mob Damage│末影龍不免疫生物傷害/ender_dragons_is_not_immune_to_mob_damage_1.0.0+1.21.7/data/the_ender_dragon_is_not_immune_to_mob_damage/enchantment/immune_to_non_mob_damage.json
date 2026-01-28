@@ -1,0 +1,141 @@
+{
+  "description": "immune_to_non_mob_damage",
+  "supported_items": "arrow",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": [
+          {
+            "condition":"all_of",
+            "terms":[
+              {
+                "condition":"damage_source_properties",
+                "predicate":{
+                  "tags":[
+                    {
+                      "expected":false,
+                      "id":"is_explosion"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition":"inverted",
+                "term":{
+                  "condition":"damage_source_properties",
+                  "predicate":{
+                    "source_entity":{
+                      "type":[
+        "frog",
+        "fox",
+        "iron_golem",
+        "llama",
+        "trader_llama",
+        "panda",
+        "polar_bear",
+        "wolf",
+        "blaze",
+        "breeze",
+        "creeper",
+        "ghast",
+        "hoglin",
+        "magma_cube",
+        "piglin_brute",
+        "shulker",
+        "slime",
+        "vex",
+        "warden",
+        "creaking",
+        "enderman",
+        "piglin",
+        "ender_dragon",
+        "giant",
+        "armor_stand",
+        "allay",
+        "armadillo",
+        "bat",
+        "camel",
+        "chicken",
+        "cow",
+        "donkey",
+        "horse",
+        "mooshroom",
+        "mule",
+        "parrot",
+        "pig",
+        "rabbit",
+        "sheep",
+        "sniffer",
+        "strider",
+        "wandering_trader",
+        "goat",
+        "villager",
+        "cat",
+        "ocelot",
+        "snow_golem",
+        "player",
+    "minecraft:turtle",
+    "minecraft:axolotl",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    "minecraft:cod",
+    "minecraft:pufferfish",
+    "minecraft:salmon",
+    "minecraft:tropical_fish",
+    "minecraft:dolphin",
+    "minecraft:squid",
+    "minecraft:glow_squid",
+    "minecraft:tadpole",
+    "minecraft:wither",
+    "minecraft:phantom",
+    "minecraft:evoker",
+    "minecraft:pillager",
+    "minecraft:ravager",
+    "minecraft:vindicator",
+    "minecraft:illusioner",
+    "minecraft:witch",
+    "minecraft:bee",
+    "minecraft:endermite",
+    "minecraft:silverfish",
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "minecraft:zombie_horse",
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:zombified_piglin",
+    "minecraft:zoglin",
+    "minecraft:drowned",
+    "minecraft:husk",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:wither_skeleton",
+    "minecraft:skeleton_horse",
+    "minecraft:bogged",
+    "happy_ghast"
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+execute as @e[type=#flying_speed_bonus:flying_mobs] run attribute @s flying_speed modifier remove minecraft:effect.slowness
+execute as @e[type=#flying_speed_bonus:flying_mobs] run attribute @s flying_speed modifier remove minecraft:effect.speed
+execute as @e[type=#flying_speed_bonus:flying_mobs] if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{slowness:{}}}} run function flying_speed_bonus:slowness with entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[{id:"minecraft:effect.slowness"}]
+execute as @e[type=#flying_speed_bonus:flying_mobs] if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{speed:{}}}} run function flying_speed_bonus:speed with entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[{id:"minecraft:effect.speed"}]

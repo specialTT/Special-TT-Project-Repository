@@ -1,0 +1,1 @@
+execute as @e[type=#real_fire_resistance:mobs] if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{fire_resistance:{}}}} run data modify entity @s HasVisualFire set value 0b

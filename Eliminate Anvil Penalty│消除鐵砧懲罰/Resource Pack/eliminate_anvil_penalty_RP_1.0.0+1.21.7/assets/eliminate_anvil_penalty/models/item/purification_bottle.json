@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eliminate_anvil_penalty:item/purification_bottle"
+  }
+}

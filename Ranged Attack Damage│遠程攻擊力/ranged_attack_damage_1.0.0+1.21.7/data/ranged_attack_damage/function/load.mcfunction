@@ -1,0 +1,2 @@
+scoreboard objectives add ranged_attack_damage dummy
+scoreboard objectives add ranged_attack_damage_decimal_part dummy

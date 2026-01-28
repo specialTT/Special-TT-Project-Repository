@@ -1,0 +1,2 @@
+$execute at @s run summon block_display ~-0.5 ~ ~-0.5 {block_state:{Name:"chest"},Tags:["relics"],Glowing:1b,data:{UUID:$(interaction_UUID)}}
+$execute at @s run summon minecraft:item_display ~ ~1.5 ~ {item:{id:"player_head",components:{"minecraft:profile":{id:$(UUID)}}},Glowing:1b,Tags:["relics"],data:{UUID:$(interaction_UUID)}}

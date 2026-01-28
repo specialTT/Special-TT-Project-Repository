@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "used":{
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+            "components": {
+                "custom_data": {
+                    "id":"purification_bottle"
+                }
+            },
+            "items": "totem_of_undying"
+        }
+      }
+    }
+  },
+  "rewards":{
+    "function": "eliminate_anvil_penalty:purification"
+  }
+}

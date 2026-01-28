@@ -1,0 +1,2 @@
+advancement revoke @a only eliminate_anvil_penalty:inventory_changed
+schedule function eliminate_anvil_penalty:load 10t

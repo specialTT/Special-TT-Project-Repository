@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ #beacon_tweak:beam_can_penetrate if predicate {condition:"location_check",predicate:{position:{y:{max:319}}}} run tag @s add close
+execute if block ~ ~ ~ #beacon_tweak:beam_can_penetrate if predicate {condition:"location_check",predicate:{position:{y:{max:319}}}} positioned ~ ~1 ~ run function beacon_tweak:open_detection

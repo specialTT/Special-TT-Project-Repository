@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 71,
+        "description": "Mobs with the Fire Resistance effect will not catch fire."
+    }
+}
