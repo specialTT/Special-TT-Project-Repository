@@ -1,0 +1,6 @@
+execute as @e[type=item_display,tag=wither_skeleton_skull] at @s if block ~ ~ ~ #wither_fortress:wither_skeleton_skull run item replace entity @s container.0 with bedrock[item_model="wither_fortress:wither_skeleton_skull_frame_start_up",item_name={translate:"block.wither_fortress.wither_skeleton_skull_frame"}] 1
+execute as @e[type=item_display,tag=wither_skeleton_skull] at @s unless block ~ ~ ~ #wither_fortress:wither_skeleton_skull run item replace entity @s container.0 with bedrock[item_model="wither_fortress:wither_skeleton_skull_frame",item_name={translate:"block.wither_fortress.wither_skeleton_skull_frame"}] 1
+execute as @e[type=marker,tag=wither_fortress_marker,tag=set] at @s run function wither_fortress:wither_summon
+execute as @e[type=marker,tag=wither_fortress_marker] at @s run function wither_fortress:summoning_ritual with entity @s data
+execute at @e[type=item_display,tag=wither_skeleton_skull] run particle minecraft:sculk_soul ~ ~ ~ 0.5 0.5 0.5 0 1 force
+execute as @e[type=wither] at @s if data entity @s home_pos unless predicate {condition:"entity_properties",entity:"this",predicate:{location:{structures:"wither_fortress:wither_fortress"}}} unless predicate {condition:"entity_properties",entity:"this",predicate:{targeted_entity:{}}} run data modify entity @s Pos set from entity @s home_pos

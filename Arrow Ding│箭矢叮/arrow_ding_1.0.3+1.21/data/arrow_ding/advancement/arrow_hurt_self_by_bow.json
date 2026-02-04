@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "bow":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "direct_entity": {
+                            "type": "#arrows",
+                            "nbt": "{weapon:{id:\"minecraft:bow\"}}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "arrow_ding:arrow_ding"
+    }
+}

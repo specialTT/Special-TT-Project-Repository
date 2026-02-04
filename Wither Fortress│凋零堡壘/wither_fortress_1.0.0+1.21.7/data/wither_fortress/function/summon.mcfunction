@@ -1,0 +1,1 @@
+$summon wither ~0.5 ~ ~0.5 {home_radius:5,home_pos:[I;$(x),$(y),$(z)]}

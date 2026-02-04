@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 12887963,
+    "separation": 4,
+    "spacing": 27
+  },
+  "structures": [
+    {
+      "structure": "wither_fortress:wither_fortress",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "wither_fortress:wither_fortress_pool",
+  "fallback": "wither_fortress:summoning_tower",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wither_fortress:corner",
+        "projection": "rigid",
+        "processors": [{
+          "processor_type":"nop"
+        }]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wither_fortress:fork_in_the_road",
+        "projection": "rigid",
+        "processors": [{
+          "processor_type":"nop"
+        }]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wither_fortress:straight_line",
+        "projection": "rigid",
+        "processors": [{
+          "processor_type":"nop"
+        }]
+      }
+    }
+  ]
+}

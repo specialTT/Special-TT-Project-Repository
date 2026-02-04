@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": "copperhopper:copper_hopper",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "ICI",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "copperhopper:copper_hopper_minecart"
+  }
+}
