@@ -1,0 +1,77 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.minecraft.density"
+  },
+  "effects": {
+    "minecraft:smash_damage_per_fallen_block": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "amount":{
+          "type":"linear",
+          "base":0.1,
+          "per_level_above_first":0.1
+        },
+        "attribute":"attack_damage",
+        "id":"density_add_multiplied_total",
+        "operation":"add_multiplied_total"
+      },
+      {
+        "amount":{
+          "type":"linear",
+          "base":0.1,
+          "per_level_above_first":0.1
+        },
+        "attribute":"fall_damage_multiplier",
+        "id":"density_add_multiplied_total",
+        "operation":"add_multiplied_total"
+      },
+      {
+        "amount":{
+          "type":"linear",
+          "base":0.1,
+          "per_level_above_first":0.1
+        },
+        "attribute":"gravity",
+        "id":"density_add_multiplied_total",
+        "operation":"add_multiplied_total"
+      },
+      {
+        "amount":{
+          "type":"linear",
+          "base":-0.1,
+          "per_level_above_first":-0.1
+        },
+        "attribute":"movement_speed",
+        "id":"density_add_multiplied_total",
+        "operation":"add_multiplied_total"
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mace",
+  "weight": 5
+}

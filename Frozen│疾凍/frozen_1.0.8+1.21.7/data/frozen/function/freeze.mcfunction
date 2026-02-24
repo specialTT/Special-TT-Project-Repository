@@ -1,0 +1,1 @@
+$execute as @e[nbt={ticks_since_last_hurt_by_mob:1,last_hurt_by_mob:$(UUID)}] run data modify entity @s TicksFrozen set value 340

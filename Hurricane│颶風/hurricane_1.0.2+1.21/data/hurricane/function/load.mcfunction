@@ -1,0 +1,4 @@
+scoreboard objectives add for_motion_calculation dummy
+scoreboard objectives add for_motion_calculation_2 dummy
+scoreboard objectives add wind_net dummy
+scoreboard objectives add breeze_attack_cooldown dummy

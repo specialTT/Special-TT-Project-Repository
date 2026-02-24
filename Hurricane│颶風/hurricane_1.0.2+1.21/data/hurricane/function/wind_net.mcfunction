@@ -1,0 +1,1 @@
+$execute as @e[nbt={last_hurt_by_mob:$(UUID),ticks_since_last_hurt_by_mob:1}] on attacker run scoreboard players add @s wind_net 1

@@ -1,0 +1,1 @@
+execute on origin run tag @s add change_bow_damage

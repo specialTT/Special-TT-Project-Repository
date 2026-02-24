@@ -1,0 +1,8 @@
+{
+  "targets": "minecraft:dragon_egg",
+  "components": {
+    "minecraft:damage_resistant":{
+		  "types":"#eternal_dragon_egg:damage_item_entity"
+	  }
+  }
+}

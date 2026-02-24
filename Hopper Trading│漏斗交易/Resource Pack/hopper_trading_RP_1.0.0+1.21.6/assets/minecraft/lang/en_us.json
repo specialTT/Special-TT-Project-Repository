@@ -1,0 +1,5 @@
+{
+    "dialog.h_trade.set_index.title":"Hopper Trading Setting",
+    "dialog.h_trade.set_index.input":"Enter the transaction item number",
+    "dialog.h_trade.set_index.check":"Confirm"
+}

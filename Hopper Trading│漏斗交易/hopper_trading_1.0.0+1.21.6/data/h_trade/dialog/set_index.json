@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "dialog.h_trade.set_index.title"
+  },
+  "inputs": [
+    { "type": "minecraft:text", "key": "idx", "label": {
+    "translate": "dialog.h_trade.set_index.input"
+  }, "max_length": 5 }
+  ],
+  "actions": [
+    {
+      "label": { "translate": "dialog.h_trade.set_index.check", "color": "#32d355" },
+      "action": { "type": "minecraft:dynamic/run_command", "template": "trigger h_set_trigger set $(idx)" }
+    }
+  ],
+  "pause": false
+}
