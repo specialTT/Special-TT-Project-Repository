@@ -1,0 +1,23 @@
+{
+  "targets": "glistering_melon_slice",
+  "components": {
+    "minecraft:consumable":{
+      "on_consume_effects":[
+        {
+          "type":"apply_effects",
+          "effects":[
+            {
+              "duration":200,
+              "id":"regeneration"
+            }
+          ]
+        }
+      ]
+    },
+    "minecraft:food":{
+      "can_always_eat":true,
+      "nutrition":2,
+      "saturation":1.2
+    }
+  }
+}

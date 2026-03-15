@@ -1,0 +1,12 @@
+$execute store result storage item_command count int 1 if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"chest"}]
+$execute if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"chest"}] run data modify storage item_command command set value "item replace entity @s $(slot) with minecraft:chest"
+$execute if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"chest"}] run function u_b_o_t:item_command with storage item_command
+$execute store result storage item_command count int 1 if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"tnt"}]
+$execute if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"tnt"}] run data modify storage item_command command set value "item replace entity @s $(slot) with minecraft:tnt"
+$execute if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"tnt"}] run function u_b_o_t:item_command with storage item_command
+$execute store result storage item_command count int 1 if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"furnace"}]
+$execute if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"furnace"}] run data modify storage item_command command set value "item replace entity @s $(slot) with minecraft:furnace"
+$execute if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"furnace"}] run function u_b_o_t:item_command with storage item_command
+$execute store result storage item_command count int 1 if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"hopper"}]
+$execute if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"hopper"}] run data modify storage item_command command set value "item replace entity @s $(slot) with minecraft:hopper"
+$execute if items entity @s $(slot) minecraft:written_book[minecraft:custom_data={block_id:"hopper"}] run function u_b_o_t:item_command with storage item_command

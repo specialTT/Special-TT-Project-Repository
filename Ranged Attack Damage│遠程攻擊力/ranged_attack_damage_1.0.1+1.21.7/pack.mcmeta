@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "New attribute: Ranged attack damage. This affects the damage of arrows fired by mobs.",
+    "pack_format": 81
+  }
+}

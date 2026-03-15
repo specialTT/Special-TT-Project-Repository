@@ -1,0 +1,1 @@
+$rotate @s facing entity @n[nbt={UUID:$(target_UUID)}] feet

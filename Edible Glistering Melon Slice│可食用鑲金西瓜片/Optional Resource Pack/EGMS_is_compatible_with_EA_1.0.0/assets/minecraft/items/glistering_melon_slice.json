@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/glistering_melon_slice"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "entries": [
+		{
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/glistering_melon_slice_0"
+          },
+          "threshold": 0.33
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/glistering_melon_slice_1"
+          },
+          "threshold": 0.66
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/glistering_melon_slice_2"
+          },
+          "threshold": 1.2
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/glistering_melon_slice"
+      },
+      "property": "minecraft:use_duration",
+      "scale": 0.05
+    },
+    "property": "minecraft:using_item"
+  }
+}

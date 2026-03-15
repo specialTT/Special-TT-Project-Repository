@@ -1,0 +1,50 @@
+{
+  "description": "throwing_sand",
+  "supported_items": "sand",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand","offhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "blindness",
+          "min_amplifier":0,
+          "max_amplifier":0,
+          "min_duration":2,
+          "max_duration":2
+        },
+        "affected": "victim",
+        "enchanted": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "throwing_sand:sand"
+        },
+        "affected": "damaging_entity",
+        "enchanted": "attacker"
+      }
+    ],
+    "minecraft:hit_block":[
+      {
+        "effect":{
+          "type": "minecraft:run_function",
+          "function": "throwing_sand:sand"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+$execute at @n[nbt={UUID:$(UUID)}] run summon item ~ ~ ~ {Item:$(Item),Owner:$(UUID),PickupDelay:0s}
