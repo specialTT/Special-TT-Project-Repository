@@ -1,0 +1,105 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "offsetX": -2,
+            "offsetY": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "bedrock"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetX": -1,
+            "offsetY": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "bedrock"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "bedrock"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetX": 1,
+            "offsetY": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "bedrock"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetX": 2,
+            "offsetY": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "bedrock"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetX": 2,
+            "offsetY": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "bedrockcrafter:bedrock_wall"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetX": -2,
+            "offsetY": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "bedrockcrafter:bedrock_wall"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetX": -1,
+            "offsetY": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "air"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetX": 0,
+            "offsetY": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "air"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetX": 1,
+            "offsetY": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "air"
+                }
+            }
+        }
+    ]
+}

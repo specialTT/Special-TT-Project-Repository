@@ -1,0 +1,1 @@
+$item modify entity @s $(slot) {function:"set_enchantments",add:true,enchantments:{"damage_lib:damage":$(value)}}

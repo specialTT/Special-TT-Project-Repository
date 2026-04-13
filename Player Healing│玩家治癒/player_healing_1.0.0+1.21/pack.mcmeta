@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "A new function has been added that can heal players based on the input healing amount.",
+    "pack_format": 81
+  }
+}

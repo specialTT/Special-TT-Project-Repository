@@ -1,0 +1,60 @@
+{
+  "description": "double_damage",
+  "supported_items": "stick",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "play_sound",
+              "sound": "block.cobweb.place",
+              "pitch": 1,
+              "volume": 1
+            },
+            {
+              "type": "replace_block",
+              "block_state": {
+                "type": "simple_state_provider",
+                "state": {
+                  "Name": "cobweb"
+                }
+              },
+              "predicate": {
+                "type": "replaceable"
+              }
+            }
+          ]
+        },
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "weaving": {}
+              }
+            }
+          }
+        ],
+        "affected": "victim",
+        "enchanted": "attacker"
+      }
+    ]
+  }
+}

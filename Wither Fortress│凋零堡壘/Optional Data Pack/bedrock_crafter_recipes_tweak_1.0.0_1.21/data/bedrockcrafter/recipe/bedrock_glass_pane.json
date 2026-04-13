@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": "bedrockcrafter:bedrock_glass"
+  },
+  "result": {
+    "id": "bedrockcrafter:bedrock_glass_pane",
+    "count": 16
+  }
+}

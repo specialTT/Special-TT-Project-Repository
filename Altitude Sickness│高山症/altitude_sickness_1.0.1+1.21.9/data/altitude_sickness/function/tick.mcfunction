@@ -1,0 +1,3 @@
+execute as @e[type=#tag_lib:mobs,type=!#undead] at @s anchored eyes positioned ^ ^ ^ unless predicate {condition:"entity_properties",entity:"this",predicate:{effects:{water_breathing:{}}}} if predicate {condition:"location_check",predicate:{position:{y:{min:320}}}} run damage @s 1 altitude_sickness:hypoxia
+execute as @e[type=#tag_lib:mobs,type=!#undead] at @s anchored eyes positioned ^ ^ ^ unless predicate {condition:"entity_properties",entity:"this",predicate:{effects:{water_breathing:{}}}} if predicate {condition:"location_check",predicate:{position:{y:{min:193,max:319.9999999}}}} run function altitude_sickness:probability
+schedule function altitude_sickness:tick 1s

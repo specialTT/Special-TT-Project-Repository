@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "coming_and_going_without_a_trace:item/eye_of_disturbance"
+  }
+}

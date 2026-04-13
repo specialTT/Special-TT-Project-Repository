@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "bedrockcrafter:bedrock_chunk"
+  },
+  "result": {
+    "id": "bedrockcrafter:bedrock_trapdoor",
+    "count": 2
+  }
+}

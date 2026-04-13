@@ -1,0 +1,60 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "body": {
+                        "items": "leather_horse_armor"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "chest": {
+                        "items": "leather_chestplate"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "feet": {
+                        "items": "leather_boots"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "head": {
+                        "items": "leather_helmet"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "legs": {
+                        "items": "leather_leggings"
+                    }
+                }
+            }
+        }
+    ]
+}

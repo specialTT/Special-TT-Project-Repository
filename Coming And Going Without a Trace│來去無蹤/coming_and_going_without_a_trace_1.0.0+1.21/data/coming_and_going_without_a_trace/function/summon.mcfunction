@@ -1,0 +1,2 @@
+tag @s add extra_summon
+$execute unless entity @e[type=illusioner,nbt={RaidId:$(RaidId),Wave:$(Wave)}] summon illusioner run loot replace entity @s weapon.offhand loot coming_and_going_without_a_trace:eye_of_backlash

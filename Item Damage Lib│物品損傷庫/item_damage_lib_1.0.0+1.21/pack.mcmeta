@@ -1,0 +1,6 @@
+{
+    "pack": { 
+        "pack_format": 81,
+        "description": "A new function has been added that can consume the durability of items."
+    }
+}

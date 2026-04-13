@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BGB",
+    " B "
+  ],
+  "key": {
+    "B": "bedrockcrafter:bedrock_chunk",
+    "G": "minecraft:glass"
+  },
+  "result": {
+    "id": "bedrockcrafter:bedrock_glass",
+    "count": 1
+  }
+}

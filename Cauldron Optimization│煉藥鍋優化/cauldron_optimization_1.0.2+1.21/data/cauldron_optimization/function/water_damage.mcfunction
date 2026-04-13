@@ -1,0 +1,29 @@
+execute positioned ~1 ~ ~1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~1 ~ ~ align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~1 ~ ~-1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~ ~ ~1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~ ~ ~ align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~ ~ ~-1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~-1 ~ ~1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~-1 ~ ~ align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~-1 ~ ~-1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+
+execute positioned ~1 ~1 ~1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~1 ~1 ~ align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~1 ~1 ~-1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~ ~1 ~1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~ ~1 ~ align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~ ~1 ~-1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~-1 ~1 ~1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~-1 ~1 ~ align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~-1 ~1 ~-1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+
+execute positioned ~1 ~2 ~1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~1 ~2 ~ align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~1 ~2 ~-1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~ ~2 ~1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~ ~2 ~ align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~ ~2 ~-1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~-1 ~2 ~1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~-1 ~2 ~ align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown
+execute positioned ~-1 ~2 ~-1 align xyz if block ~ ~ ~ water_cauldron as @e[dx=0,type=#cauldron_optimization:afraid_of_water] run damage @s 1 drown

@@ -1,0 +1,45 @@
+{
+    "anvil_cost": 0,
+    "description": "damage",
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 255,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "slots": ["any"],
+    "supported_items": "#pickaxes",
+    "weight": 1,
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "minecraft:change_item_damage",
+                    "amount": {
+                        "type": "linear",
+                        "base": 1,
+                        "per_level_above_first": 1
+                    }
+                },
+                "requirements": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player"
+                        }
+                    }
+                ]
+            },
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "damage_lib:remove_enchantment"
+                }
+            }
+        ]
+    }
+}

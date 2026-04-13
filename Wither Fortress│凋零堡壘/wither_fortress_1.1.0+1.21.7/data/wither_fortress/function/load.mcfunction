@@ -1,0 +1,1 @@
+scoreboard objectives add frame_start_up_count dummy

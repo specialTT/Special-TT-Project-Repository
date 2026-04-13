@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Mobs occasionally suffers from oxygen deprivation at high altitudes.",
+    "max_format": [84,0],
+    "min_format": [69]
+  }
+}

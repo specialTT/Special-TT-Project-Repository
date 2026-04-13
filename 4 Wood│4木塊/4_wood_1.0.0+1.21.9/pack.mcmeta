@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "Wood recipe result count becomes 4.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

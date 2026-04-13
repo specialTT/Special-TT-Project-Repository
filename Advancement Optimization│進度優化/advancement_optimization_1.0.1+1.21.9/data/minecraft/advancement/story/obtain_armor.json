@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "iron_armors": {
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": "minecraft:iron_chestplate"
+            },
+            "feet": {
+              "items": "minecraft:iron_boots"
+            },
+            "head": {
+              "items": "minecraft:iron_helmet"
+            },
+            "legs": {
+              "items": "minecraft:iron_leggings"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.obtain_armor.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_chestplate"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "iron_armors"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

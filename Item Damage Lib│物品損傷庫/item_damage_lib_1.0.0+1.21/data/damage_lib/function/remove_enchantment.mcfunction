@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand {function:"set_enchantments",enchantments:{"damage_lib:damage":0}}

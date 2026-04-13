@@ -1,0 +1,4 @@
+execute as @e[type=#coming_and_going_without_a_trace:mobs,scores={health=1..}] run scoreboard players remove @s health 1
+execute as @e[type=#coming_and_going_without_a_trace:mobs] at @s if predicate {condition:"any_of",terms:[{condition:"entity_properties",entity:"this",predicate:{equipment:{mainhand:{items:"totem_of_undying",predicates:{custom_data:{id:"eye_of_disturbance"}}}}}},{condition:"entity_properties",entity:"this",predicate:{equipment:{offhand:{items:"totem_of_undying",predicates:{custom_data:{id:"eye_of_disturbance"}}}}}}]} run function coming_and_going_without_a_trace:start_up
+execute as @e[type=evoker,tag=!extra_summon] at @s if data entity @s Wave run function coming_and_going_without_a_trace:summon with entity @s
+execute as @e[type=illusioner] run data modify entity @s drop_chances.offhand set value 0f

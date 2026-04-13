@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "bedrockcrafter:polished_bedrock",
+  "result": {
+    "id": "bedrockcrafter:polished_bedrock_stairs",
+    "count": 1
+  }
+}
