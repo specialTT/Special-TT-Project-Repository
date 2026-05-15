@@ -1,0 +1,1 @@
+$execute as @e[$(riding_target),predicate=!mob_autonomous_ride:is_riding] at @s run ride @s mount @n[$(being_ridden_target),distance=..$(max_riding_distance),predicate=!mob_autonomous_ride:being_ridden]

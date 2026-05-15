@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "used_bucket":{
+      "conditions": {
+        "item": {
+          "items": "minecraft:bucket"
+        },
+        "player":[
+          {
+            "condition":"entity_properties",
+            "entity":"this",
+            "predicate":{
+              "nbt":"{Tags:[\"offhand_bucket\"]}"
+            }
+          }
+        ],
+        "entity":[
+          {
+            "condition":"entity_properties",
+            "entity":"this",
+            "predicate":{
+              "type":"blaze"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "requirements": [
+    [
+      "used_bucket"
+    ]
+  ],
+  "rewards":{
+    "function":"lava_from_the_blaze:used_bucket_offhand"
+  }
+}

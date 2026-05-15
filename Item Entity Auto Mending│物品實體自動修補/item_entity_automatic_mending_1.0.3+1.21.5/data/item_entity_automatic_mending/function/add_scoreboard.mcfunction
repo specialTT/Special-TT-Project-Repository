@@ -1,0 +1,3 @@
+scoreboard objectives add mending_cooldown dummy
+scoreboard objectives add item_damage dummy
+scoreboard objectives add experience_orb_count dummy

@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "Bee will drop Flowers when killed.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

@@ -1,0 +1,1 @@
+$summon item ~ ~ ~ {Item:$(offhand_item)}

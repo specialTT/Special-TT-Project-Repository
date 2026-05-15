@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "Tridents can be crafted and repaired using Nautilus Shells.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "You can repair snow golems using snowballs, just like you can repair iron golems.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

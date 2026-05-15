@@ -1,0 +1,14 @@
+{
+    "subtitles.entity.player.get_instant_health":"得到治療",
+    "subtitles.entity.player.get_speed":"得到速度加成",
+    "subtitles.entity.player.get_strength":"得到力量",
+    "subtitles.entity.player.get_weakness":"得到虚弱",
+    "subtitles.entity.player.get_nausea":"得到劇毒",
+    "subtitles.entity.player.get_invisibility":"得到隱形",
+    "subtitles.entity.player.get_darkness":"得到黑暗",
+    "subtitles.entity.player.get_night_vision":"得到夜視",
+    "subtitles.entity.player.get_hunger":"得到飢餓",
+    "subtitles.entity.player.get_glowing":"得到發光",
+    "subtitles.entity.player.get_levitation":"得到懸浮",
+    "subtitles.entity.player.get_slow_falling":"得到緩降"
+}

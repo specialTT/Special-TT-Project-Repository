@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "experience_bottle",
+        "nether_star"
+    ],
+    "result": {
+        "id": "totem_of_undying",
+        "components": {
+            "item_name": {"translate": "item.eliminate_anvil_penalty.purification_bottle"},
+            "item_model": "eliminate_anvil_penalty:purification_bottle",
+            "consumable": {
+                "animation": "drink",
+                "has_consume_particles": false,
+                "consume_seconds": 0.5,
+                "sound": "entity.generic.drink",
+                "on_consume_effects": [
+                    {
+                        "type": "play_sound",
+                        "sound": "entity.player.levelup"
+                    }
+                ]
+            },
+            "!death_protection": {},
+            "rarity": "epic",
+            "custom_data": {
+                "id":"purification_bottle"
+            },
+            "enchantment_glint_override": true
+        }
+    }
+}

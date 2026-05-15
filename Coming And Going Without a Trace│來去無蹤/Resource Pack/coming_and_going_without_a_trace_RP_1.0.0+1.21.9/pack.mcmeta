@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Illusionists will now spawn in raids and drop unique items.",
+    "max_format": [84,0],
+    "min_format": [69]
+  }
+}

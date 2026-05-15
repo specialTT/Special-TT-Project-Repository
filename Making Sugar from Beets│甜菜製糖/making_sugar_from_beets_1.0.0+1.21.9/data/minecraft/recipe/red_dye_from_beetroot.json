@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:beetroot",
+  "result": {
+    "id": "minecraft:red_dye"
+  }
+}

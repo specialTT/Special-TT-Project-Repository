@@ -1,0 +1,2 @@
+execute as @a if items entity @s weapon.mainhand bakeyourbread:unbaked_cake[!minecraft:use_remainder] unless items entity @s weapon.mainhand bakeyourbread:unbaked_cake[minecraft:block_state={bites:"6"}] run item modify entity @s weapon.mainhand cakes_can_be_eaten_directly:unbaked_cake
+execute as @a if items entity @s weapon.offhand bakeyourbread:unbaked_cake[!minecraft:use_remainder] unless items entity @s weapon.offhand bakeyourbread:unbaked_cake[minecraft:block_state={bites:"6"}] run item modify entity @s weapon.offhand cakes_can_be_eaten_directly:unbaked_cake

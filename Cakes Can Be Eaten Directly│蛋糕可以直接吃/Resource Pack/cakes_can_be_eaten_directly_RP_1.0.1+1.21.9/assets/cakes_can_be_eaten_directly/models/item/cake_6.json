@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cakes_can_be_eaten_directly:item/cake_6"
+  }
+}

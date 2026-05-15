@@ -1,0 +1,29 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!minecraft:death_protection": {},
+                                "item_name": {
+                                    "translate": "item.coming_and_going_without_a_trace.eye_of_disturbance"
+                                },
+                                "item_model": "coming_and_going_without_a_trace:eye_of_disturbance",
+                                "custom_data": {
+                                    "id":"eye_of_disturbance"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

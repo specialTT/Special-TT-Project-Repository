@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "Most mobs move at a slower pace on sand, red sand, and gravel, highlighting the camel's advantage in the desert.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

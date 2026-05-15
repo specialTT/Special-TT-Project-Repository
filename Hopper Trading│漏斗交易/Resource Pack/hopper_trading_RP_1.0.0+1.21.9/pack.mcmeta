@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Use hoppers for auto trading.",
+    "max_format": [84,0],
+    "min_format": [69]
+  }
+}

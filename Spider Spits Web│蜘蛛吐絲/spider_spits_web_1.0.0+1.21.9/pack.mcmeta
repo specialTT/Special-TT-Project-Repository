@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Spiders can spits webs to trap their targets.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

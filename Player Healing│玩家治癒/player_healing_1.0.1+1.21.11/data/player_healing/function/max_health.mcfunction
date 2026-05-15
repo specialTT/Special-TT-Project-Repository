@@ -1,0 +1,1 @@
+$attribute @s max_health modifier add healing_amount $(healing_amount) add_value

@@ -1,0 +1,4 @@
+execute as @e[type=#arrows] at @s on origin if entity @s[type=stray] run data modify entity @n[type=#arrows] weapon.components."minecraft:enchantments"."frost_arrows:frost_arrows" set value 1
+execute as @e[type=#arrows,nbt={item:{components:{"minecraft:custom_data":{frost_arrows:1b}}}}] run data modify entity @s weapon.components."minecraft:enchantments"."frost_arrows:frost_arrows" set value 1
+execute as @e[type=#arrows] at @s on origin if entity @s[type=stray] run item modify entity @n[type=#arrows] container.0 {function:"set_components",components:{custom_data:{frost_arrows:1b},potion_contents:{custom_color:7596507}}}
+execute as @e[type=#arrows] if items entity @s container.0 *[custom_data={frost_arrows:1b}] if predicate {condition:"random_chance",chance:0.3} at @s run particle snowflake ~ ~ ~ 0.1 0.1 0.1 0 1

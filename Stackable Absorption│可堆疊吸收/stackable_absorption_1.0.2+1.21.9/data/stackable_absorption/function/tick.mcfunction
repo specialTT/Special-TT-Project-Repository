@@ -1,0 +1,2 @@
+execute as @e[type=#tag_lib:mobs,predicate=stackable_absorption:absorption] run function stackable_absorption:has_absorption
+execute as @e[type=#tag_lib:mobs,predicate=!stackable_absorption:absorption,tag=stackable_absorption] run function stackable_absorption:reset

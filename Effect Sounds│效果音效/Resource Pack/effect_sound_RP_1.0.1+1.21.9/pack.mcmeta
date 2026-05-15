@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Special sound effects will be produced when the effect is obtained.",
+    "max_format": [84,0],
+    "min_format": [69]
+  }
+}

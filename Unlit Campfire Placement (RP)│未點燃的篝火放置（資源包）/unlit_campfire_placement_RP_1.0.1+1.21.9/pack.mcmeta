@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "The campfire item texture has been changed to a style without flames, in order to match the changes in Data Pack \"Unlit Campfire Placement\".",
+    "max_format": [84,0],
+    "min_format": [69]
+  }
+}

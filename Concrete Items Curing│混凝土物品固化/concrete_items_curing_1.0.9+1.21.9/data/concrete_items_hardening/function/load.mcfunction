@@ -1,0 +1,3 @@
+execute as @e[type=item,predicate=predicate_lib:in_water] if items entity @s container.0 #concrete_items_hardening:concrete_powder run function concrete_items_hardening:item
+execute as @e[type=#tag_lib:humanoids,predicate=predicate_lib:in_water] if items entity @s weapon.mainhand #concrete_items_hardening:concrete_powder run function concrete_items_hardening:mainhand
+execute as @e[type=#tag_lib:humanoids,predicate=predicate_lib:in_water] if items entity @s weapon.offhand #concrete_items_hardening:concrete_powder run function concrete_items_hardening:offhand

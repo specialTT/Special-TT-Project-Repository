@@ -1,0 +1,2 @@
+team add piglin_and_hoglin
+team modify piglin_and_hoglin friendlyFire false

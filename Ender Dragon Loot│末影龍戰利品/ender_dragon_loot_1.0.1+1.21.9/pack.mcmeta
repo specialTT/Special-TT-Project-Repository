@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "Customizable ender dragon loot.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " ? ",
+        " ! "
+    ],
+    "key": {
+        "#": "minecraft:netherite_scrap",
+        "?": "minecraft:arrow",
+        "!": "minecraft:blaze_rod"
+    },
+    "result": {
+        "id": "minecraft:totem_of_undying",
+        "components":{
+            "!death_protection":{},
+            "enchantment_glint_override":false,
+            "enchantments":{
+                "borer:borer":1
+            },
+            "item_model":"borer:borer",
+            "item_name":{
+                "translate":"item.borer.borer"
+            },
+            "minecraft:tooltip_display":{
+                "hidden_components":[
+                    "enchantments"
+                ]
+            }
+        },
+        "count": 1
+    }
+}

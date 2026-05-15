@@ -1,0 +1,1 @@
+$effect give @s minecraft:poison 4 $(amplifier)

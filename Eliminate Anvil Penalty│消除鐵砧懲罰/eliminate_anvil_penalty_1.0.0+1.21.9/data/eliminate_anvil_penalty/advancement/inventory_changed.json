@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "inventory_changed":{
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ],
+  "rewards":{
+    "function": "eliminate_anvil_penalty:visualization"
+  }
+}

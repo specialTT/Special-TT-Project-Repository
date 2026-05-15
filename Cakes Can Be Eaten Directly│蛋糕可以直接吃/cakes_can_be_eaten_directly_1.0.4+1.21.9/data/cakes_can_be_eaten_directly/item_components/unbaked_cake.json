@@ -1,0 +1,52 @@
+{
+  "targets": "bakeyourbread:unbaked_cake",
+    "components": {
+    "minecraft:food":{
+      "nutrition":1,
+      "saturation":0.1
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05,
+      "on_consume_effects":[
+        {
+          "type":"apply_effects",
+          "effects":[
+            {
+              "id":"poison",
+              "duration":300
+            }
+          ],
+          "probability":0.0643
+        },
+        {
+          "type":"apply_effects",
+          "effects":[
+            {
+              "id":"hunger",
+              "duration":200,
+              "amplifier":1
+            }
+          ],
+          "probability":0.0429
+        },
+        {
+          "type":"apply_effects",
+          "effects":[
+            {
+              "id":"nausea",
+              "duration":100
+            }
+          ],
+          "probability":0.1071
+        }
+      ]
+    },
+    "minecraft:lore":[
+      {
+        "translate":"cake_7.lore",
+        "color":"dark_gray",
+        "italic":false
+      }
+    ]
+  }
+}

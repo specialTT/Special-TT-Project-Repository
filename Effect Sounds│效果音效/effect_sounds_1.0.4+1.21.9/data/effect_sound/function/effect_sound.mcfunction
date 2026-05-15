@@ -1,0 +1,1 @@
+$execute as @s[tag=!$(effect)] at @s if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{$(effect):{visible:true}}}} run function effect_sound:get_effect {volume:"$(volume)",pitch:"$(pitch)",sound:"$(sound)",effect:"$(effect)"}

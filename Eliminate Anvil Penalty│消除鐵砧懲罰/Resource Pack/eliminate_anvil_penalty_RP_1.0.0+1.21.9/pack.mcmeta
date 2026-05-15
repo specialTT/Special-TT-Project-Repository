@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "The Purification Bottle (New item) can eliminate anvil penalties; anvil penalties are visualized.",
+    "max_format": [84,0],
+    "min_format": [69]
+  }
+}

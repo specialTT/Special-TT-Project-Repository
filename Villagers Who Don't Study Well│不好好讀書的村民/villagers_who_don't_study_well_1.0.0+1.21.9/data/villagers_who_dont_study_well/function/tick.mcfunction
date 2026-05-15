@@ -1,0 +1,1 @@
+execute as @e[type=villager,nbt={Age:-1}] if predicate {condition:"random_chance",chance:0.1} run data merge entity @s {Age:0,VillagerData:{profession:"nitwit"}}

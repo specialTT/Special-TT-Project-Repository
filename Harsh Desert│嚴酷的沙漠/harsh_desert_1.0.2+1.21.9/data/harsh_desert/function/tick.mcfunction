@@ -1,0 +1,4 @@
+execute as @e[type=#tag_lib:non-desert_mobs] run attribute @s movement_speed modifier remove sand_slowness
+execute as @e[type=#tag_lib:horses] run attribute @s movement_speed modifier remove horse_sand_slowness
+execute as @e[type=#tag_lib:non-desert_mobs] at @s if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_swimming:false}}} if predicate {condition:"entity_properties",entity:"this",predicate:{stepping_on:{block:{blocks:["sand","red_sand","gravel"]}}}} run attribute @s movement_speed modifier add sand_slowness -0.25 add_multiplied_total
+execute as @e[type=#tag_lib:horses] at @s if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_swimming:false}}} if predicate {condition:"entity_properties",entity:"this",predicate:{stepping_on:{block:{blocks:["sand","red_sand","gravel"]}}}} run attribute @s movement_speed modifier add horse_sand_slowness -0.15 add_multiplied_total

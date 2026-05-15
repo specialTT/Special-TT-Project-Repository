@@ -1,0 +1,24 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "passenger": {}
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "passenger": {
+                    "type": "husk"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "targets": "copper_boots",
+  "components": {
+    "max_damage":121
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Breeze will shoot more Wind Charges at a time, and when a Wind Charge hits a creature, it will gain a wind net that provides defense and healing.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

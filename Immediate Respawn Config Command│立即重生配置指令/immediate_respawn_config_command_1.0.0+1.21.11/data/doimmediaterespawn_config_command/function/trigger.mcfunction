@@ -1,0 +1,2 @@
+execute as @e[scores={doimmediaterespawn=1}] at @s run function doimmediaterespawn_config_command:doimmediaterespawn1
+execute as @e[scores={doimmediaterespawn=0}] at @s run function doimmediaterespawn_config_command:doimmediaterespawn0

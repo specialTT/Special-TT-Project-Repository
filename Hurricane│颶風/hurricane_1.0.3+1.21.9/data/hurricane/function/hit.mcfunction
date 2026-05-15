@@ -1,0 +1,3 @@
+$execute on attacker unless score @s wind_net matches $(wind_net_max_stacking_layers).. run scoreboard players add @s wind_net 1
+execute unless data storage hurricane:config {breeze_healing:0b} if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{wind_charged:{}}}} on attacker run function hurricane:heal
+execute unless data storage hurricane:config {breeze_healing:0b} run effect give @s minecraft:wind_charged 30 0

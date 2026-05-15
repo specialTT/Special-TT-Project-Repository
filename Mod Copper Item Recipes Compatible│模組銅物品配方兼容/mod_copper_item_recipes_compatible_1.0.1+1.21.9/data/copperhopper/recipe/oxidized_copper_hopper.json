@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "ICI",
+    "IHI",
+    " I "
+  ],
+  "key": {
+    "C": "minecraft:comparator",
+    "H": "minecraft:hopper",
+    "I": "copper_extension:oxidized_copper_ingot"
+  },
+  "result": {
+    "id": "copperhopper:oxidized_copper_hopper"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": ["minecraft:bedrock"],
+  "result": {
+    "id": "bedrockcrafter:bedrock_chunk",
+    "count": 9
+  }
+}

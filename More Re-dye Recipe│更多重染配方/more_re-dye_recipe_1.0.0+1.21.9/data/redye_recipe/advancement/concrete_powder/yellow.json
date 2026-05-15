@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "has_concrete_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#redye_recipe:concrete_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redye_recipe:concrete_powder/yellow"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_concrete_powder"
+    ]
+  ],
+  "rewards":{
+      "recipes":[
+          "redye_recipe:concrete_powder/yellow"
+      ]
+  }
+}

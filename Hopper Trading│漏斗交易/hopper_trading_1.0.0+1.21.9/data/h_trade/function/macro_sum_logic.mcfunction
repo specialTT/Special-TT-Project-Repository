@@ -1,0 +1,2 @@
+$execute if data storage h_trade:main Summary[{id:"$(id)"}] run function h_trade:add_count {id:"$(id)", add:$(count)}
+$execute unless data storage h_trade:main Summary[{id:"$(id)"}] run data modify storage h_trade:main Summary append value {id:"$(id)", total:$(count)}

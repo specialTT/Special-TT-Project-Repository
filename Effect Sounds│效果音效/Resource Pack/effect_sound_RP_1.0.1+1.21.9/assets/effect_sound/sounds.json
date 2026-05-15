@@ -1,0 +1,74 @@
+{
+    "entity.player.get_instant_health":{
+        "sounds":[
+            "effect_sound:instant_health"
+        ],
+        "subtitle": "subtitles.entity.player.get_instant_health"
+    },
+    "entity.player.get_speed":{
+        "sounds":[
+            "effect_sound:speed"
+        ],
+        "subtitle": "subtitles.entity.player.get_speed"
+    },
+    "entity.player.get_strength":{
+        "sounds":[
+            "effect_sound:strength"
+        ],
+        "subtitle": "subtitles.entity.player.get_strength"
+    },
+    "entity.player.get_weakness":{
+        "sounds":[
+            "effect_sound:weakness"
+        ],
+        "subtitle": "subtitles.entity.player.get_weakness"
+    },
+    "entity.player.get_nausea":{
+        "sounds":[
+            "effect_sound:nausea"
+        ],
+        "subtitle": "subtitles.entity.player.get_nausea"
+    },
+    "entity.player.get_invisibility":{
+        "sounds":[
+            "effect_sound:invisibility"
+        ],
+        "subtitle": "subtitles.entity.player.get_invisibility"
+    },
+    "entity.player.get_darkness":{
+        "sounds":[
+            "effect_sound:darkness"
+        ],
+        "subtitle": "subtitles.entity.player.get_darkness"
+    },
+    "entity.player.get_night_vision":{
+        "sounds":[
+            "effect_sound:night_vision"
+        ],
+        "subtitle": "subtitles.entity.player.get_night_vision"
+    },
+    "entity.player.get_hunger":{
+        "sounds":[
+            "effect_sound:hunger"
+        ],
+        "subtitle": "subtitles.entity.player.get_hunger"
+    },
+    "entity.player.get_glowing":{
+        "sounds":[
+            "effect_sound:glowing"
+        ],
+        "subtitle": "subtitles.entity.player.get_glowing"
+    },
+    "entity.player.get_levitation":{
+        "sounds":[
+            "effect_sound:levitation"
+        ],
+        "subtitle": "subtitles.entity.player.get_levitation"
+    },
+    "entity.player.get_slow_falling":{
+        "sounds":[
+            "effect_sound:slow_falling"
+        ],
+        "subtitle": "subtitles.entity.player.get_slow_falling"
+    }
+}

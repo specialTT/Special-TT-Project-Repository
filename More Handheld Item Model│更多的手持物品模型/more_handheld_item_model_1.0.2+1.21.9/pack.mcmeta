@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Let feathers, shears, name tag and other items have handheld model.",
+    "max_format": [84,0],
+    "min_format": [69]
+  }
+}

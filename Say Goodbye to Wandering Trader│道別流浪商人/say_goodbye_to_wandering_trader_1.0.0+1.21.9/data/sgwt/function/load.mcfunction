@@ -1,0 +1,1 @@
+scoreboard objectives add say_goodbye trigger

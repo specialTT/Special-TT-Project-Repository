@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "When an arrow hits a monster, it will make a \"ding\" sound.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

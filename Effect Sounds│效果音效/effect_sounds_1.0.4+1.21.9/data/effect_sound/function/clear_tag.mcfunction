@@ -1,0 +1,1 @@
+$execute as @e[tag=$(effect)] unless predicate {condition:"entity_properties",entity:"this",predicate:{effects:{$(effect):{visible:true}}}} run tag @s remove $(effect)

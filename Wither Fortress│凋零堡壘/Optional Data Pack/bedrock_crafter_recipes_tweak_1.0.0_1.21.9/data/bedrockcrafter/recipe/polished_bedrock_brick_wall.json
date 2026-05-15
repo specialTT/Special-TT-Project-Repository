@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "bedrockcrafter:polished_bedrock_bricks"
+  },
+  "result": {
+    "id": "bedrockcrafter:polished_bedrock_brick_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "targets": ["chainmail_helmet","iron_helmet"],
+  "components": {
+    "max_damage":195
+  }
+}

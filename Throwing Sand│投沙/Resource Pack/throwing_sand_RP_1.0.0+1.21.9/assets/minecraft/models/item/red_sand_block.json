@@ -1,0 +1,32 @@
+{
+    "gui_light": "side",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ -6, 0, 0],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        }
+    },
+    "textures": {
+        "particle": "minecraft:block/red_sand",
+        "down": "minecraft:block/red_sand",
+        "up": "minecraft:block/red_sand",
+        "north": "minecraft:block/red_sand",
+        "east": "minecraft:block/red_sand",
+        "south": "minecraft:block/red_sand",
+        "west": "minecraft:block/red_sand"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#down", "cullface": "down" },
+                "up":    { "texture": "#up", "cullface": "up" },
+                "north": { "texture": "#north", "cullface": "north" },
+                "south": { "texture": "#south", "cullface": "south" },
+                "west":  { "texture": "#west", "cullface": "west" },
+                "east":  { "texture": "#east", "cullface": "east" }
+            }
+        }
+    ]
+}

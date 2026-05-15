@@ -1,0 +1,2 @@
+scoreboard objectives add toxin_calculation dummy
+scoreboard objectives add toxin_calculation_2 dummy

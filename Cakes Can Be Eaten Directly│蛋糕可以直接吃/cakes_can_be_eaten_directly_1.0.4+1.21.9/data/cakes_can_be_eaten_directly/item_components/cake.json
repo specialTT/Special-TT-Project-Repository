@@ -1,0 +1,19 @@
+{
+  "targets": "cake",
+    "components": {
+    "minecraft:food":{
+      "nutrition":2,
+      "saturation":0.4
+    },
+    "minecraft:consumable":{
+      "consume_seconds":0.05
+    },
+    "minecraft:lore":[
+      {
+        "translate":"cake_7.lore",
+        "color":"dark_gray",
+        "italic":false
+      }
+    ]
+  }
+}

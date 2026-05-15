@@ -1,0 +1,3 @@
+execute as @e[type=item,predicate=!item_entity_automatic_mending:no_damage,predicate=item_entity_automatic_mending:mendable,scores={mending_cooldown=..0}] at @s if entity @e[type=experience_orb,distance=..3] run function item_entity_automatic_mending:mending_item with entity @n[type=experience_orb]
+scoreboard players remove @e[type=item,scores={mending_cooldown=1..}] mending_cooldown 1
+execute as @e[type=item,tag=!initial_value] run function item_entity_automatic_mending:item_initial_value

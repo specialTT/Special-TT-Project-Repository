@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dyed_candle",
+  "ingredients": [
+    [
+      "candle",
+      "white_candle",
+      "light_gray_candle",
+      "gray_candle",
+      "black_candle",
+      "brown_candle",
+      "orange_candle",
+      "yellow_candle",
+      "lime_candle",
+      "green_candle",
+      "cyan_candle",
+      "light_blue_candle",
+      "blue_candle",
+      "purple_candle",
+      "magenta_candle",
+      "pink_candle"
+    ],
+    "minecraft:red_dye"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:red_candle"
+  }
+}

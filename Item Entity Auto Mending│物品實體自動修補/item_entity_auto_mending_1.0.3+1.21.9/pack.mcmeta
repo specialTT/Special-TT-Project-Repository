@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "An item that has the Mending enchantment dropped on the ground will consume any experience orbs within 3 blocks to repair its durability.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

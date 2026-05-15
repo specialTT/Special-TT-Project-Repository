@@ -1,0 +1,8 @@
+{
+  "targets": "minecraft:nether_star",
+  "components": {
+    "minecraft:damage_resistant":{
+		  "types":"#eternal_nether_star:damage_item_entity"
+	  }
+  }
+}

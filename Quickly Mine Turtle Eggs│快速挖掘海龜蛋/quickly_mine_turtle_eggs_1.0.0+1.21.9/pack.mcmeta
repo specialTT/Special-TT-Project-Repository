@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "Mining turtle eggs now destroys them all at once, rather than one at a time.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

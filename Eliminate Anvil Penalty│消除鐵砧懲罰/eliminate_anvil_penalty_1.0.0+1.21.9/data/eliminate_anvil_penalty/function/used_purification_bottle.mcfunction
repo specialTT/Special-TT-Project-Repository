@@ -1,0 +1,45 @@
+advancement revoke @s only eliminate_anvil_penalty:used_purification_bottle
+tag @s remove purification
+tag @s remove used_purification_bottle
+execute unless entity @s[tag=purification] if data entity @s SelectedItem.components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"weapon.mainhand"}
+execute unless entity @s[tag=purification] if data entity @s equipment.offhand.components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"weapon.offhand"}
+execute unless entity @s[tag=purification] if data entity @s equipment.head.components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"armor.head"}
+execute unless entity @s[tag=purification] if data entity @s equipment.chest.components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"armor.chest"}
+execute unless entity @s[tag=purification] if data entity @s equipment.legs.components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"armor.legs"}
+execute unless entity @s[tag=purification] if data entity @s equipment.feet.components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"armor.feet"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:0b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.0"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:1b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.1"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:2b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.2"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:3b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.3"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:4b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.4"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:5b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.5"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:6b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.6"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:7b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.7"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:8b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.8"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:9b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.9"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:10b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.10"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:11b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.11"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:12b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.12"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:13b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.13"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:14b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.14"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:15b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.15"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:16b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.16"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:17b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.17"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:18b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.18"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:19b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.19"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:20b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.20"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:21b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.21"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:22b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.22"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:23b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.23"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:24b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.24"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:25b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.25"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:26b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.26"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:27b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.27"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:28b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.28"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:29b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.29"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:30b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.30"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:31b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.31"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:32b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.32"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:33b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.33"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:34b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.34"}
+execute unless entity @s[tag=purification] if data entity @s Inventory[{Slot:35b}].components."minecraft:repair_cost" run function eliminate_anvil_penalty:remove_repair_cost {"slot":"container.35"}

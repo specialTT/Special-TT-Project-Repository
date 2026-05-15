@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "has_large_fern": {
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:large_fern"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "cut_tall_grass:breakdown_large_fern"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_large_fern"
+      ]
+    ],
+    "rewards":{
+        "recipes":[
+            "cut_tall_grass:breakdown_large_fern"
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+scoreboard objectives add cycle_4s dummy

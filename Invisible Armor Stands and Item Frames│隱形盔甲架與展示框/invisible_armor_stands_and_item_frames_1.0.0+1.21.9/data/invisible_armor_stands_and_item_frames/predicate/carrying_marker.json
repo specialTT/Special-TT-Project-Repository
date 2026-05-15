@@ -1,0 +1,10 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "passenger":{
+      "nbt":"{Tags:[\"potion_effect\"]}",
+      "type":"marker"
+    }
+  }
+}

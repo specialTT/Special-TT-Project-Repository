@@ -1,0 +1,2 @@
+scoreboard objectives add spider_cooldown dummy
+scoreboard objectives add spider_accumulating_power dummy

@@ -1,0 +1,6 @@
+{
+  "targets": "copper_helmet",
+  "components": {
+    "max_damage":143
+  }
+}

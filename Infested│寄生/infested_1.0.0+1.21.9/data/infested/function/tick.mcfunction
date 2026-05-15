@@ -1,0 +1,2 @@
+item replace entity @e[type=silverfish] weapon.mainhand with minecraft:stick[minecraft:enchantments={"infested:infested":1}]
+execute as @e[type=silverfish] run data modify entity @s drop_chances set value {mainhand:0f}

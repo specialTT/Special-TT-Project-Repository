@@ -1,0 +1,1 @@
+data modify entity @s TicksFrozen set value 540

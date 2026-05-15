@@ -1,0 +1,2 @@
+execute if predicate ender_dragon_loot:is_portal run function #ender_dragon_loot:rewards
+execute unless predicate ender_dragon_loot:is_portal unless predicate ender_dragon_loot:check_y positioned ~ ~1 ~ run function ender_dragon_loot:find_the_run_function_point

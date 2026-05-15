@@ -1,0 +1,2 @@
+execute as @e[type=#arrows] at @s on origin if entity @s[type=bogged] run data modify entity @n weapon.components."minecraft:enchantments"."toxin_accumulation:toxin_accumulation" set value 1
+execute as @e[type=#arrows] at @s on origin if entity @s[type=bogged] run data remove entity @n item.components."minecraft:potion_contents".custom_effects

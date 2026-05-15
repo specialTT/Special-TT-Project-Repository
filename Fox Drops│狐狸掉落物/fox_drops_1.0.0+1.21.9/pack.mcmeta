@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "Fox will drop Berries when killed.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

@@ -1,0 +1,1 @@
+scoreboard objectives add player_healing dummy

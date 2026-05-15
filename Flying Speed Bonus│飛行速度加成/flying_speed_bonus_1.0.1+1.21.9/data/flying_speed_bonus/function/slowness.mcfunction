@@ -1,0 +1,1 @@
+$attribute @s flying_speed modifier add minecraft:effect.slowness $(amount) add_multiplied_total

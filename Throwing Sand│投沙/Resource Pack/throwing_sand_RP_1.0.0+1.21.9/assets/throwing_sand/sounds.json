@@ -1,0 +1,8 @@
+{
+    "block.sand.hitting_an_object":{
+        "sounds":[
+            "throwing_sand:sand_hit"
+        ],
+        "subtitle": "subtitles.block.sand.hitting_an_object"
+    }
+}

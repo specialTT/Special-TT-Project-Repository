@@ -1,0 +1,11 @@
+{
+  "targets": "iron_ingot",
+  "components": {
+    "minecraft:equippable":{
+      "slot":"body",
+      "allowed_entities":"iron_golem",
+      "dispensable":true,
+      "equip_sound":"entity.iron_golem.repair"
+    }
+  }
+}

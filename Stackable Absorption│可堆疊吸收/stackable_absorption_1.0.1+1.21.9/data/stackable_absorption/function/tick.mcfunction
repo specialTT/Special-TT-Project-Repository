@@ -1,0 +1,4 @@
+execute as @e[type=#tag_lib:mobs] if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{absorption:{amplifier:{max:254}}}}} if score @s amplifier matches -2147483648..2147483647 if score @s duration matches -2147483648..2147483647 run function stackable_absorption:absorption
+execute as @e[type=#tag_lib:mobs] if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{absorption:{amplifier:{max:254}}}}} if data entity @s active_effects[{id:"minecraft:absorption"}].hidden_effect run function stackable_absorption:absorption_hidden_effect
+execute as @e[type=#tag_lib:mobs] if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{absorption:{}}}} run function stackable_absorption:log
+execute as @e[type=#tag_lib:mobs] unless predicate {condition:"entity_properties",entity:"this",predicate:{effects:{absorption:{}}}} run function stackable_absorption:reset

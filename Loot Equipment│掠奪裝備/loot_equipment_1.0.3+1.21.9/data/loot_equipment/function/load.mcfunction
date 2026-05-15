@@ -1,0 +1,1 @@
+execute unless data storage loot_equipment:storage chance run data modify storage loot_equipment:storage chance set value 0.2

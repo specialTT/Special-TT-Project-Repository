@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^ run function h_trade:mark with entity @s

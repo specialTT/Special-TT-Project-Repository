@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "Use shears to snip an entire tall grass or large fern and obtain it.",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

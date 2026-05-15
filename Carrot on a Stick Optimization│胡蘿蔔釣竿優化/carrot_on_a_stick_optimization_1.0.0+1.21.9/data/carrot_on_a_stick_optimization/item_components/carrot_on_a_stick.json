@@ -1,0 +1,6 @@
+{
+  "targets": "carrot_on_a_stick",
+  "components": {
+    "max_damage":64
+  }
+}

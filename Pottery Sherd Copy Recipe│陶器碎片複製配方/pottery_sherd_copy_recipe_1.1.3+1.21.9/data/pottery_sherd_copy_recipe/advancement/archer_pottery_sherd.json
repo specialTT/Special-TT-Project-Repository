@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "has_archer_pottery_sherd": {
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:archer_pottery_sherd"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "pottery_sherd_copy_recipe:archer_pottery_sherd"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_archer_pottery_sherd"
+      ]
+    ],
+    "rewards":{
+        "recipes":[
+            "pottery_sherd_copy_recipe:archer_pottery_sherd"
+        ]
+    }
+}

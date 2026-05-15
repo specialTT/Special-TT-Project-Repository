@@ -1,0 +1,6 @@
+{
+    "values": [
+        "villager_regeneration:add_scoreboard",
+        "villager_regeneration:main"
+    ]
+}

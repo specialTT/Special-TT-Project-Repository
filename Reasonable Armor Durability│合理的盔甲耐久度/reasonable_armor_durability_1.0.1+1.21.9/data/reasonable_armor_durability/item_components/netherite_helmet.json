@@ -1,0 +1,6 @@
+{
+  "targets": "netherite_helmet",
+  "components": {
+    "max_damage":481
+  }
+}

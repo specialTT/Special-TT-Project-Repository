@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dyed_banner",
+  "ingredients": [
+    [
+      "light_gray_banner",
+      "gray_banner",
+      "black_banner",
+      "brown_banner",
+      "red_banner",
+      "orange_banner",
+      "yellow_banner",
+      "lime_banner",
+      "green_banner",
+      "cyan_banner",
+      "light_blue_banner",
+      "blue_banner",
+      "purple_banner",
+      "magenta_banner",
+      "pink_banner"
+    ],
+    "minecraft:white_dye"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:white_banner"
+  }
+}

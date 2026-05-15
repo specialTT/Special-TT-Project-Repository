@@ -1,0 +1,1 @@
+scoreboard objectives add coming_and_going_without_a_trace.health dummy

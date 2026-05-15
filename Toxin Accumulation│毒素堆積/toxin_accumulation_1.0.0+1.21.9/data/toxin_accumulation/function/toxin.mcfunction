@@ -1,0 +1,7 @@
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{poison:{}}}} run scoreboard players set @s toxin_calculation 0
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{poison:{}}}} run scoreboard players set @s toxin_calculation_2 1
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{poison:{}}}} store result score @s toxin_calculation run data get entity @s active_effects[{id:"minecraft:poison"}].amplifier
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{poison:{}}}} run scoreboard players operation @s toxin_calculation += @s toxin_calculation_2
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{poison:{}}}} store result storage toxin_accumulation:toxin_calculation amplifier int 1 run scoreboard players get @s toxin_calculation
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{effects:{poison:{}}}} run function toxin_accumulation:apply_effect with storage toxin_accumulation:toxin_calculation
+execute unless predicate {condition:"entity_properties",entity:"this",predicate:{effects:{poison:{}}}} run effect give @s minecraft:poison 4 0

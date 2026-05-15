@@ -1,0 +1,27 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+               "effects": {
+                    "wither": {
+                        "duration": 60
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+               "effects": {
+                    "wither": {
+                        "duration": 40
+                    }
+                }
+            }
+        }
+    ]
+}

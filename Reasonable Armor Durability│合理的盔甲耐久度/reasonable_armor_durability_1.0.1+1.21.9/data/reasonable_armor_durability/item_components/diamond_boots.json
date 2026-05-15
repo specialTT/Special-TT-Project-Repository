@@ -1,0 +1,6 @@
+{
+  "targets": "diamond_boots",
+  "components": {
+    "max_damage":363
+  }
+}

@@ -1,0 +1,4 @@
+execute if entity @e[type=ender_dragon,predicate=ender_dragon_loot:in_the_end] unless entity @e[type=marker,nbt={data:{function:"Loot_spawn_indicator"}}] run summon marker ~ ~ ~ {data:{function:"Loot_spawn_indicator"}}
+execute if entity @e[type=marker,nbt={data:{function:"Loot_spawn_indicator"}}] unless entity @e[type=ender_dragon,predicate=ender_dragon_loot:in_the_end] run schedule function ender_dragon_loot:set_pos 201 replace
+execute if entity @e[type=marker,nbt={data:{function:"Loot_spawn_indicator"}}] unless entity @e[type=ender_dragon,predicate=ender_dragon_loot:in_the_end] run kill @e[type=marker,nbt={data:{function:"Loot_spawn_indicator"}}]
+execute unless data storage ender_dragon_loot loot_table_list run data modify storage ender_dragon_loot loot_table_list set value []

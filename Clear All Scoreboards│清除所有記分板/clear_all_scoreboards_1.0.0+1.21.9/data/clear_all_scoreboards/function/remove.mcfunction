@@ -1,0 +1,1 @@
+$data remove storage clear_all_scoreboards:storage scoreboard_list.[{with:[{text:"$(remove)"}]}]

@@ -1,0 +1,7 @@
+{
+    "pack": { 
+        "description": "Interchange the max durability of all helmets and boots of the same material",
+        "max_format": [95],
+        "min_format": [88]
+    }
+}

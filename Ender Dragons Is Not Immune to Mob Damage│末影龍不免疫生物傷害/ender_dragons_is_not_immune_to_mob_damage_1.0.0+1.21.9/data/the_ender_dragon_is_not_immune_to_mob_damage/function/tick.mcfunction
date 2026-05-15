@@ -1,0 +1,2 @@
+item replace entity @e[type=ender_dragon] armor.head with minecraft:stick[minecraft:enchantments={"the_ender_dragon_is_not_immune_to_mob_damage:immune_to_non_mob_damage":1}]
+execute as @e[type=ender_dragon] run data modify entity @s drop_chances set value {head:0f}

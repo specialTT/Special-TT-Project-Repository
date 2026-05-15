@@ -1,0 +1,2 @@
+scoreboard objectives add looting_level dummy
+scoreboard objectives add fortune_level dummy

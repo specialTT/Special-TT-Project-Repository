@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Feel the icy arrows; Strays' attacks will now freeze you.",
+    "max_format": [84,0],
+    "min_format": [69]
+  }
+}

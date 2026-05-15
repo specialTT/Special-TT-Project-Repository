@@ -1,0 +1,2 @@
+execute as @a[tag=used_purification_bottle] run function eliminate_anvil_penalty:used_purification_bottle
+schedule function eliminate_anvil_penalty:load 2t

@@ -1,0 +1,1 @@
+$execute align xyz as @e[type=blaze,dx=0,dy=0,dz=0] run function eternal_fire:$(type)_logic

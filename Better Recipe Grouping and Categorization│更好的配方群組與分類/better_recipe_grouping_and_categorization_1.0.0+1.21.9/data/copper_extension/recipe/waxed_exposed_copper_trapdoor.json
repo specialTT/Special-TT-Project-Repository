@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "copper_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "copper_extension:waxed_exposed_copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:waxed_exposed_copper_trapdoor",
+    "count": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "crossbow":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "direct_entity": {
+                            "type": "#arrows",
+                            "nbt": "{weapon:{id:\"minecraft:crossbow\"},Tags:[\"silent_false\"]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "arrow_ding:arrow_ding"
+    }
+}

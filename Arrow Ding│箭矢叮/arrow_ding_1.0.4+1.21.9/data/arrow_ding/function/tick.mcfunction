@@ -1,0 +1,1 @@
+tag @e[type=#arrows,nbt=!{Silent:true},tag=!silent_false] add silent_false

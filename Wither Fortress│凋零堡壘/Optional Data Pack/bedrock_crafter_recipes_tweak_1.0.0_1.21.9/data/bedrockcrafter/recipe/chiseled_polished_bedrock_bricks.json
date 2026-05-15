@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": "bedrockcrafter:polished_bedrock_brick_slab"
+  },
+  "result": {
+    "id": "bedrockcrafter:chiseled_polished_bedrock_bricks",
+    "count": 1
+  }
+}

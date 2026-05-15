@@ -1,0 +1,41 @@
+{
+  "targets": "iron_spear",
+  "components": {
+    "minecraft:kinetic_weapon": {
+        "dismount_conditions": {
+            "min_speed": 7,
+            "max_duration_ticks": 50
+        },
+        "sound": "minecraft:item.spear.use",
+        "knockback_conditions": {
+            "min_speed": 5.1,
+            "max_duration_ticks": 110
+        },
+        "hit_sound": "minecraft:item.spear.hit",
+        "damage_conditions": {
+            "min_relative_speed": 4.6,
+            "max_duration_ticks": 175
+        },
+        "forward_movement": 0.38,
+        "damage_multiplier": 1.2,
+        "delay_ticks": 8
+    },
+    "minecraft:rarity": "rare",
+    "minecraft:attribute_modifiers": [
+        {
+            "type": "minecraft:attack_damage",
+            "amount": 4,
+            "operation": "add_value",
+            "slot": "mainhand",
+            "id": "minecraft:base_attack_damage"
+        },
+        {
+            "type": "minecraft:attack_speed",
+            "amount": -3.13043475151062,
+            "operation": "add_value",
+            "slot": "mainhand",
+            "id": "minecraft:base_attack_speed"
+        }
+    ]
+  }
+}

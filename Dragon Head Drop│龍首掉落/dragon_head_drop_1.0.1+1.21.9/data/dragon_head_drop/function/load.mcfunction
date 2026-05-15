@@ -1,0 +1,1 @@
+data modify storage minecraft:ender_dragon_loot loot_table_list append value {id:"minecraft:blocks/dragon_head"}

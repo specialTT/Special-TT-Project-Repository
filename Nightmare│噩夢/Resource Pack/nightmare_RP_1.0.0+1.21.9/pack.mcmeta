@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "The Phantom's attacks are more powerful, but they disappear after attacking, and their health is reduced.",
+    "max_format": [84,0],
+    "min_format": [69]
+  }
+}

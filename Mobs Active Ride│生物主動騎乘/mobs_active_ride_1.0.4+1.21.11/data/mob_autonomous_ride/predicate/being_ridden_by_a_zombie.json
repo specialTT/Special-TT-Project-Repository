@@ -1,0 +1,12 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "passenger":{
+            "type":"#zombies",
+            "flags":{
+                "is_baby":true
+            }
+        }
+    }
+}

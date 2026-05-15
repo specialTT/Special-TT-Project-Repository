@@ -1,0 +1,1 @@
+scoreboard objectives add has_lava_bucket dummy

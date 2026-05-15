@@ -1,0 +1,32 @@
+{
+    "gui_light": "side",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ -6, 0, 0],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        }
+    },
+    "textures": {
+        "particle": "wither_fortress:block/wither_skeleton_skull_frame",
+        "down": "wither_fortress:block/wither_skeleton_skull_frame",
+        "up": "wither_fortress:block/wither_skeleton_skull_frame",
+        "north": "wither_fortress:block/wither_skeleton_skull_frame",
+        "east": "wither_fortress:block/wither_skeleton_skull_frame",
+        "south": "wither_fortress:block/wither_skeleton_skull_frame",
+        "west": "wither_fortress:block/wither_skeleton_skull_frame"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#down", "cullface": "down" },
+                "up":    { "texture": "#up", "cullface": "up" },
+                "north": { "texture": "#north", "cullface": "north" },
+                "south": { "texture": "#south", "cullface": "south" },
+                "west":  { "texture": "#west", "cullface": "west" },
+                "east":  { "texture": "#east", "cullface": "east" }
+            }
+        }
+    ]
+}

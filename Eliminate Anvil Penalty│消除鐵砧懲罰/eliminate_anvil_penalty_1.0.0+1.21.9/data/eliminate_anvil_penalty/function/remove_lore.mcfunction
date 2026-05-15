@@ -1,0 +1,1 @@
+$item modify entity @s container.$(slot) {function:"set_components",components:$(components)}
